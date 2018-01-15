@@ -1,0 +1,29 @@
+---
+layout: blog
+---
+
+{% for post in paginator.posts %}
+  <div class='big mod modBlogPost no_bg'>
+    {% if post.images %}
+      <div class='images'>
+        {% for image in post.images  %}
+          <div class='image'><img width="800" height="533" alt="" src="{{ image | relative_url }}" /></div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div class='content'>
+      {% include post-meta.html post=post %}
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {{ post.excerpt }}
+      <div class='spacing'></div>
+      <a class="button small boxed yellow" href="{{ post.url | relative_url }}">Read more</a>
+    </div>
+  </div>
+  <hr>
+  <div class='two spacing'></div>
+{% endfor %}
+
+
+{% include pagination.html %}
+
+<div class="four spacing"></div>

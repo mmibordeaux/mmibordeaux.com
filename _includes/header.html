@@ -1,0 +1,45 @@
+{% if page.onepage %}
+  {% assign classname= '' %}
+{% else %}
+  {% assign classname='bg-black' %}
+{% endif %}
+
+<div class='transparent fullwidth white fixed contain-to-grid {{ classname }}'>
+  <nav class='top-bar onepage' data-options='' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href='{{ 'index.html' | relative_url }}'>
+            <img width="126" height="48" alt="" src="{{ "/assets/images/logo-3.png" | relative_url }}" />
+          </a>
+        </h1>
+      </li>
+    </ul>
+    <div id="menu-toggler" class="right">
+      <a href='#'>
+        <i class="fa fa-bars"></i>
+        Menu
+      </a>
+    </div>
+    <section class='top-bar-section closed'>
+      <ul class='right'>
+
+        {% for item in site.data.nav %}
+          <li>
+            {% assign first = item.path | truncate:1,'' %}
+
+            {% if first != '#' %}
+              {% assign href = item.path | relative_url %}
+            {% elsif page.onepage %}          
+              {% assign href = item.path %}
+            {% else %}              
+              {% assign href = 'index.html' | append:item.path | relative_url %}              
+            {% endif %}
+            
+            <a href="{{ href }}">{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </nav>
+</div>

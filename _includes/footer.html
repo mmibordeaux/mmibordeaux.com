@@ -1,0 +1,22 @@
+<div class="full no-padding dark">
+  <div class="four spacing"></div>
+  <div id="footer" class='centered-text'>
+    <div class='row'>
+      <div class='large-12 columns'>
+        <h4>©{{site.time | date: "%Y" }} Wrap theme. All rights reserved.</h4>
+      </div>
+    </div>
+  </div>
+  <div class="four spacing"></div>
+</div>
+
+{% for path in site.data.assets.js %}    
+
+  {%- if path contains '://' -%}
+    {%- assign src = path -%}
+  {%- else -%}
+    {%- assign src = path | relative_url -%}
+  {%- endif -%}
+
+  <script src="{{ src }}" type="text/javascript"></script>
+{% endfor %}

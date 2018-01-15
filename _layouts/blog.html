@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="our blog" title="wrap ideas" %}
+    </div>
+  </div>
+</div>
+
+<div class='full no-padding'>
+  <div class='row'>
+    <div class='large-9 columns'>
+      {{ content }}      
+    </div>
+    <div class='large-3 columns' id='sidebar'>
+      {% include sidebar-archives.html %}
+      {% include sidebar-categories.html %}
+      {% include sidebar-recent-posts.html %}
+      {% include sidebar-tags.html %}
+      <div class='four spacing'></div>
+    </div>
+  </div>
+</div>

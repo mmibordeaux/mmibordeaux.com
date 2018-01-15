@@ -1,0 +1,353 @@
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.wp-caption, .wp-caption-text, .sticky, .gallery-caption, .bypostauthor, .alignright, .alignleft, .aligncenter {
+  visibility: visible;
+}
+
+div[id^="attachment_"] {
+  max-width: 100%;
+}
+
+.pager a.older {
+  float: left;
+}
+
+form.search-form .screen-reader-text {
+  /*display: none;*/
+}
+
+.post {
+  padding: 30px 20px 20px;
+  margin-bottom: 40px;
+  /*background: #f9f9f9;*/
+}
+
+.post h2 a {
+  color: #333;
+}
+
+.post h2 a:hover {
+  color: #F9CE06;
+}
+
+.post.sticky {
+  background: #635F4C;
+}
+
+
+/*.post.sticky h2 a {
+  color: #333;
+}
+
+.post.sticky .info a {
+  color: #fff;
+}
+
+.post.sticky .button {
+  background: #333;
+  border: 2px solid #333;
+}
+
+.post.sticky .featured-post {
+  display: none;
+}
+
+.post.sticky p.info {
+  color: #666;
+}*/
+
+.top-bar-section ul > li.active:not(.has-form) ul > li.active:not(.has-form) a:not(.button) {
+  background: #222;
+  color: #ccc;
+}
+
+
+/*Pager */
+.pager {
+  width: 97%;
+  overflow: auto;
+  padding: 20px 10px;
+}
+.pager a {
+  color: #999;
+}
+.pager a:hover {
+  color: #F9CE06;
+}
+.pager .older {
+  float: left;
+}
+.pager .newer {
+  float: right;
+}
+
+.empty-comments-top-shift {
+  margin-top: -180px;
+}
+
+.inline-title {
+  padding-top: 200px;
+  padding-bottom: 0;
+}
+
+.inline-goback {
+  font-size: 20px;
+}
+
+.inline-wow {
+  margin-top: 100px;
+}
+
+.inline-hide {
+  display: none;
+}
+
+.inline-ui {
+  min-height: 200px;
+  width: 200px;
+}
+
+.inline-ui-2 {
+  width: 500px;
+}
+
+.inline-ui-3 {
+  width: 80%;
+}
+
+.inline-ui-4 {
+  min-height: 200px;
+}
+
+.inline-ui-5 {
+  display: inline;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.inline-filter {
+  display: inline;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.featured-post {
+  color: yellow;
+}
+
+.full-vertical {
+  height: 100vh;
+}
+
+#setting-error-tgmpa {
+  display: block;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.page-links {
+  word-spacing: 5px;
+}
+
+body.page-template-default .top-bar {
+  background: #333 !important;
+}
+
+.customize-control-widget_form div[id*='blahlab-widget'] .form .widget-anchor-id {
+  display: block;
+}
+
+.light p {
+  color: #ccc;
+}
+
+.default .contain-to-grid.transparent, .blog .contain-to-grid.transparent {
+  background: #000;
+}
+
+.modBlogPost.big .screen-reader-text {
+  display: none;
+}
+
+.modBlogPost.big .info {
+  color: #333;
+  font-size: 0.85rem;
+}
+
+.modBlogPost.big .excerpt {
+  color: #333;
+}
+
+body.posts .modBlogPost.big p {
+  color: #333;
+}
+
+.modBlogPost.big .info a {
+  color: #478547;
+  letter-spacing: 1px;
+}
+
+.modBlogPost.big .button.boxed {
+  color: #478547;
+  border-color: #478547;
+}
+
+.modBlogPost.big .button.boxed:hover {
+  background-color: transparent;
+}
+
+.modBlogPost.big h1 {
+  font-size: 4.271425rem;
+}
+
+.modBlogPost.big h2 {
+  font-size: 3.028575rem;
+}
+
+.modBlogPost h3::after {
+  content: none;
+}
+
+.modBlogPost h3.deco::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 35px;
+  background: #edb713;
+  margin: 10px 0 30px; 
+}
+
+.modBlogPost.big h3.deco::after {
+   width: 60px; 
+ }
+
+.post.sticky.modBlogPost.big .info {
+  color: #ccc;
+}
+
+.post.sticky.modBlogPost.big .excerpt {
+  color: #999;
+}
+
+.post.sticky.modBlogPost.big .info a {
+  color: #edb713;
+}
+
+.post.sticky.modBlogPost.big .button.boxed {
+  color: #edb713;
+  border-color: #edb713;
+}
+
+.post.sticky.modBlogPost.big .button.boxed:hover {
+  background-color: transparent;
+}
+
+.top-bar .title-area .name h1 a {
+  color: #efefef;
+}
+
+.modBlogPost img {
+  width: auto;
+}
+
+.modBlogPost img.alignleft {
+  float: left;
+  margin-right: 1.6em;
+}
+
+.modBlogPost img.alignright {
+  float: right;
+  margin-left: 1.6em;
+}
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.modBlogPost .image img, .modBlogPost .images img {
+  width: 100%;
+}
+
+ul.comments li.post.pingbacka {
+  margin-bottom: 0;
+}
+
+.fixed.contain-to-grid.wpadminbar-show {
+  top: 32px;
+}
+
+@media screen and ( max-width: 60em ) {
+  /* during this interval, it's positon is relative, so ... */
+  .fixed.contain-to-grid.wpadminbar-show {
+    top: 0px;
+  }
+}
+
+#sidebar .widget {
+  margin-bottom: 30px;
+}
+
+#sidebar .widget h5.section-nav-title {
+  font-size: 1rem;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+@media only screen and (min-width: 960px) {
+  .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
+    line-height: 2.2;
+  }
+}
+
+body.posts .modBlogPost {
+  margin-left: 0;
+}
+
+.full.heavy {
+  background: #191919;
+}
+
+.blahlab_line {
+  clear: both;
+}

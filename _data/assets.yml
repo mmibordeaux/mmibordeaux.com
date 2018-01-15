@@ -1,0 +1,26 @@
+css:
+  - /assets/css/foundation.css
+  - /assets/css/style.css
+  - /assets/css/patch.css
+  - /assets/css/fontello.css
+  - /assets/css/font-awesome.css
+  - https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700
+  - https://fonts.googleapis.com/css?family=Raleway:400,700,300
+js:
+  - /bower_components/jquery/dist/jquery.js
+  - /bower_components/imagesloaded/imagesloaded.pkgd.js
+  - /bower_components/masonry/dist/masonry.pkgd.min.js
+  - /bower_components/foundation/js/foundation.min.js
+  - /assets/javascripts/jquery.sequence-min.js
+  - /assets/javascripts/slick.patched.js
+  - /assets/javascripts/jquery.countTo.js
+  - /assets/javascripts/jquery.appear.js
+  - /assets/javascripts/jquery.validate.js
+  - /assets/javascripts/jquery.easing.1.3.js
+  - /assets/javascripts/modernizr.foundation.js
+  - /assets/javascripts/terrific-1.1.1.js
+  - /assets/javascripts/jquery.url.js
+  - /assets/javascripts/jquery.cookie.js
+  - /assets/javascripts/app.js
+  - /assets/javascripts/boot.js
+  - /assets/javascripts/wp.js

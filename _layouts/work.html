@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% assign small_title = page.categories | join:" & " %}
+      {% assign title = page.title | downcase | capitalize %}
+      {% include section-title.html small_title=small_title title=title %}
+    </div>
+  </div>
+</div>
+<div class='full no-padding'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for slide in page.slides %}
+            <div class='slide'>
+              <img width="1120" height="600" alt="" src="{{ slide | relative_url }}" />
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <h3>{{ page.title }}</h3>
+      {{ content }}
+      <div class='spacing'></div>
+      {% if page.link %}
+        {% if page.link.url contains '://' %}
+          {% assign href = page.link.url %}
+        {% else %}
+          {% assign href = page.link.url | relative_url %}
+        {% endif %}
+        <a class='button small' href='{{ href }}'>{{ page.link.text }}</a>
+      {% endif %}      
+    </div>
+    <div class='large-4 columns'>
+      <ul class='info'>
+        {% if page.client %}
+          <li>
+            <strong>Client:</strong>
+            {{ page.client }}
+          </li>
+        {% endif %}
+
+        {% if page.date %}
+          <li>
+            <strong>Date:</strong>
+            {{ page.date | date:"%B %Y" }}
+          </li>
+        {% endif %}
+
+        <li>
+
+          <div class='spacing'></div>
+            
+          {% if page.previous %}
+            <a href='{{ page.previous.url | relative_url }}' title='previous'>
+              <i class='icon-left-open'></i>
+            </a>
+          {% endif %}
+
+          {% assign nav_obj = site.data.nav | where:'section_id','works' | first %}
+
+          <a href='{{ "index.html" | append:nav_obj.path | relative_url }}' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+
+          {% if page.next %}
+            <a href='{{ page.next.url | relative_url }}' title='next'>
+              <i class='icon-right-open'></i>
+            </a>
+          {% endif %}
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+{% include contact-form.html %}
+
+{% include social-networks.html %}

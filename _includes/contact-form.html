@@ -1,0 +1,54 @@
+<div class='full dark'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="contact" title="Work with us" %}
+    </div>
+    <div class='four spacing'></div>
+    <div class='large-8 medium-8 columns'>
+      <div class='form'>
+        <div class='row'>
+          <form id='contact_form' class='dark' method='POST'>
+            <div class='large-12 columns'>
+              <p id='thanks'>
+                Thanks for contacting us, we'll be in touch soon!
+              </p>
+            </div>
+            <div class='medium-12 columns'>
+              <input class='required' name='name' placeholder='NAME' type='text'>
+              <input class='required email' name='email' placeholder='EMAIL' type='text'>
+              <input class='required' name='subject' placeholder='SUBJECT' type='text'>
+              <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
+              <input name="recipient" type="hidden" value="{{ site.email }}" />
+              <div class='spacing'></div>
+              <input class='button white' type='submit'>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns'>
+      <div class='border-wrapper'>
+        <div class='borders'>
+          <div class='top'></div>
+          <div class='right'></div>
+          <div class='bottom'></div>
+          <div class='left'></div>
+        </div>
+        <div class='contact-details'>
+          <div class='content'>
+            <h4>Head office:</h4>
+            <p>41 Dean Street, London, UK</p>
+            <h4>Phone:</h4>
+            <p>+86 (03) 9810 4612</p>
+            <h4>Fax:</h4>
+            <p>+6102 236338 5456</p>
+            <h4>Email:</h4>
+            <p>info@wrap-team.com</p>
+          </div>
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+  </div>
+</div>

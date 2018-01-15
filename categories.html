@@ -1,0 +1,47 @@
+---
+layout: default
+permalink: /blog/categories/
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="category index" title="wrap ideas" %}
+    </div>
+  </div>
+</div>
+
+<div class='full no-padding'>
+  <div class='row'>
+    <div class='large-8 large-centered columns'>
+      <dl>
+
+      {% capture categories %}
+        {% for cat in site.categories %}
+          {{ cat[0] | replace:' ', '&#32;' }}
+        {% endfor %}
+      {% endcapture %}
+
+      {% assign sorted_categories = categories | split:' ' | sort %}
+
+      {% for cat in sorted_categories %}
+
+        {% assign name = cat | replace:'&#32;', ' ' %}
+
+        <dt id="{{ name | slugify }}">{{ name}}</dt>
+        <dd>
+          <ul>
+            {% for post in site.categories[name] %}
+              <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </dd>
+
+      {% endfor %}
+      </dl>
+
+    </div>
+  </div>
+</div>

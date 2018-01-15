@@ -1,0 +1,21 @@
+<div class='links categories'>
+
+  {% capture categories %}
+    {% for cat in site.categories %}
+      {{ cat[0] | replace:' ', '&#32;' }}
+    {% endfor %}
+  {% endcapture %}
+
+  {% assign sorted_categories = categories | split:' ' | sort %}
+
+  <h3>Categories</h3>
+  <ul>
+    {% for cat in sorted_categories %}
+      {% assign name = cat | replace:'&#32;', ' ' %}
+      {% assign hash = name | slugify %}
+      <li>
+        <a href='{{ '/blog/categories/#' | append:hash | relative_url  }}'>{{ name | capitalize }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

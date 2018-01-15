@@ -1,0 +1,21 @@
+<div class='links tags'>
+  <h3>Tags</h3>
+  {% capture tags %}
+    {% for tag in site.tags %}
+      {{ tag[0] | replace:' ', '&#32;' }}
+    {% endfor %}
+  {% endcapture %}
+
+  {% assign sorted_tags = tags | split:' ' | sort %}
+
+  <ul>
+    {% for tag in sorted_tags %}
+      {% assign name = tag | replace:'&#32;', ' ' %}
+      {% assign hash = name | slugify %}
+      <li>
+        <a href='{{ '/blog/tags/#' | append:hash | relative_url  }}'>{{ name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

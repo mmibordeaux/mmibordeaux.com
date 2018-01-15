@@ -1,0 +1,20 @@
+<p class='info'>
+  <span>{{ include.post.date | date: "%B %d, %Y" }}</span>
+  /
+  <span>by <a href="javascript:void()">{{ include.post.author }}</a></span>
+
+  {% if include.post.categories[0]%}
+    
+    /
+    <span>
+      In
+      {% for cat in include.post.categories %}
+        {% assign cat = cat | slugify %}
+        <a href="{{ "/blog/categories/#" | append:cat | relative_url }}">{{cat}}</a>
+        {%- unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </span>
+
+  {% endif %}
+
+</p>

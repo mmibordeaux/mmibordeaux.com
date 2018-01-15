@@ -1,0 +1,31 @@
+---
+layout: blog
+---
+
+<div class='mod modBlogPost big no_bg'>
+  {% if page.images and page.images[0] %}
+    <div class='images'>
+      {% for image in page.images  %}
+        <div class='image'><img width="800" height="533" alt="" src="{{ image | relative_url }}" /></div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class='content'>
+    {% include post-meta.html post=page %}
+    
+    <h3 class="deco">{{ page.title }}</h3>
+
+    {{ content }}
+  </div>
+</div>
+
+<a id='comments'></a>
+
+<div class='comments-wrapper'>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+
+</div>

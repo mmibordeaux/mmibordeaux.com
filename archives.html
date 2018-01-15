@@ -1,0 +1,39 @@
+---
+layout: default
+permalink: /blog/archives/
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="monthly archives" title="wrap ideas" %}
+    </div>
+  </div>
+</div>
+
+<div class='full no-padding'>
+  <div class='row'>
+    <div class='large-8 large-centered columns'>
+      {% assign archives = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
+
+      <dl>
+        
+        {% for archive in archives %}
+          {% assign hash = archive.name | date:"%Y-%m" %}
+          <dt id="{{ hash }}">{{ archive.name }}</dt>
+          <dd>
+            <ul>
+              {% for post in archive.items %}
+                <li>
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </dd>
+        {% endfor %}
+
+      </dl>
+  
+    </div>
+  </div>
+</div>

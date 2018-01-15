@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="{{ page.collection }}">
+
+    <a id='top'></a>
+
+    {% include header.html %}
+
+    {% if page.onepage %}
+      {% assign classname = 'top-shift' %}
+    {% else %}
+      {% assign classname = '' %}
+    {% endif %}
+
+    <div id="main" class="{{ classname }}">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>

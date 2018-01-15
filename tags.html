@@ -1,0 +1,48 @@
+---
+layout: default
+permalink: /blog/tags/
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="tag index" title="wrap ideas" %}
+    </div>
+  </div>
+</div>
+
+<div class='full no-padding'>
+  <div class='row'>
+    <div class='large-8 large-centered columns'>
+      <dl>
+
+
+
+      {% capture tags %}
+        {% for tag in site.tags %}
+          {{ tag[0] | replace:' ', '&#32;' }}
+        {% endfor %}
+      {% endcapture %}
+
+      {% assign sorted_tags = tags | split:' ' | sort %}
+
+      {% for tag in sorted_tags %}
+
+        {% assign name = tag | replace:'&#32;', ' ' %}
+
+        <dt id="{{ name | slugify }}">{{ name}}</dt>
+        <dd>
+          <ul>
+            {% for post in site.tags[name] %}
+              <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </dd>
+
+      {% endfor %}
+      </dl>
+    </div>
+  </div>
+</div>

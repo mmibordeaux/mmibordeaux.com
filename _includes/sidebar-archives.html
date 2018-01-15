@@ -1,0 +1,18 @@
+{% assign archives = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
+
+<div class='links'>
+  <h3>Archives</h3>
+  <ul>
+  
+    {% for archive in archives %}
+      
+      <li>
+        {% assign hash = archive.name | date:"%Y-%m" %}
+        <a href='{{ 'blog/archives/#' | append:hash | relative_url }}'>{{ archive.name }}</a>
+        <span>({{ archive.items | size }})</span>
+      </li>
+
+    {% endfor %}
+
+  </ul>
+</div>

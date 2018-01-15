@@ -1,0 +1,16 @@
+{% if paginator %}
+  <div class="pager">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="older">
+        <i class='fa fa-angle-double-left'></i>
+        Older Entries
+      </a>
+    {% endif %}
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="newer">
+        Newer Entries
+        <i class='fa fa-angle-double-right'></i>
+      </a>
+    {% endif %}
+  </div>
+{% endif %}
