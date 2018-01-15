@@ -1,6 +1,6 @@
 css:
   - /assets/css/foundation.css
-  - /assets/css/style.css
+  - /assets/css/site.css
   - /assets/css/patch.css
   - /assets/css/fontello.css
   - /assets/css/font-awesome.css
