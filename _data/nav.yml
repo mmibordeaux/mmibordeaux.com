@@ -5,11 +5,13 @@
   path: "#contact"
   section_id: contact
 - name: DUT MMI
-  path: /dut-mmi/
+  path: /dut-mmi
 - name: Equipe
-  path: /equipe/
+  path: /equipe
 - name: Entreprises
-  path: /equipe/
+  path: /entreprises
+- name: Blog
+  path: /blog
 # - name: About
 #   path: "#about"
 #   section_id: about
@@ -22,5 +24,3 @@
 # - name: Team
 #   path: "#team"
 #   section_id: team
-- name: Blog
-  path: /blog/
