@@ -1,6 +1,7 @@
 ---
 layout: page
 title: DUT MMI
+url: 'dut-mmi'
 ---
 
 ### MMI Bordeaux, l’école des nouveaux médias
