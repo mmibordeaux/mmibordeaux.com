@@ -1,6 +1,6 @@
 ---
 id: 5240
-title: 'Premier anniversaire de la labellisation « French Tech » : 19 octobre 2015 – 18h à la CCI de Bordeaux'
+title: 'Premier anniversaire de la labellisation « French Tech »: 19 octobre 2015 – 18h à la CCI de Bordeaux'
 date: 2015-10-19T11:21:17+00:00
 author: Martine Bornerie
 layout: post
