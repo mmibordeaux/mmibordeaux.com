@@ -18,8 +18,7 @@ title: MMI Bordeaux
 # This is the place to set up the contact form recipient
 # email: your-email@example.com
 
-description: > # this means to ignore newlines until "baseurl:"
-  Métiers du Multimedia & de l'Internet
+description: DUT MMI (Métiers du Multimedia & de l'Internet) à Bordeaux
 #baseurl: "/mmibordeaux.com" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
