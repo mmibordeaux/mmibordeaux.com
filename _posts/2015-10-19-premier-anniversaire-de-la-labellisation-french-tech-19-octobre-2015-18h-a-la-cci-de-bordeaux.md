@@ -5,7 +5,7 @@ date: 2015-10-19T11:21:17+00:00
 author: Martine Bornerie
 layout: post
 guid: http://mmibordeaux.com/?p=5240
-permalink: /2015/10/19/premier-anniversaire-de-la-labellisation-french-tech-19-octobre-2015-18h-a-la-cci-de-bordeaux/
+permalink: /2015/10/19/premier-anniversaire-french-tech/
 categories:
   - événement
 ---
