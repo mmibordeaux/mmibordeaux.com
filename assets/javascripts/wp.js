@@ -21,6 +21,7 @@
 
     });
 
+/*
     function resetMainServicesHeight() {
       $('.main-services').each(function() {
         $('.columns', this).height('auto');
@@ -52,7 +53,7 @@
       calcMainServicesHeight();
     });
 
-
+*/
 
   });
 
