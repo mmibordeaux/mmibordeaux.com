@@ -19,6 +19,7 @@ title: MMI Bordeaux
 # email: your-email@example.com
 
 description: DUT (Diplôme Universitaire de Technologie) MMI (Métiers du Multimedia & de l'Internet) à Bordeaux
+repository: arnaudlevy/mmibordeaux.com
 #baseurl: "/mmibordeaux.com" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
