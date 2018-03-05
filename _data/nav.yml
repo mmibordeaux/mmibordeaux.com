@@ -1,10 +1,13 @@
 - name: Accueil
   path: "#top"
   section_id: home
+- name: En savoir plus
+  path: "#about"
+  section_id: about
 - name: Contact
   path: "#contact"
   section_id: contact
-- name: DUT MMI
+- name: Le DUT MMI
   path: /dut-mmi
 - name: Equipe
   path: /equipe
@@ -12,9 +15,6 @@
   path: /entreprises
 - name: Blog
   path: /blog
-# - name: About
-#   path: "#about"
-#   section_id: about
 # - name: Services
 #   path: "#services"
 #   section_id: services
