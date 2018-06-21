@@ -50,6 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-sitemap
