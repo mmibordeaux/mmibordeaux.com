@@ -1,7 +1,7 @@
 ---
 layout: page
-title: DUT MMI
-url: 'dut-mmi'
+title: BUT MMI
+url: 'but-mmi'
 ---
 
 ### MMI Bordeaux, l’école des nouveaux médias
@@ -9,7 +9,7 @@ url: 'dut-mmi'
 La formation pluridisciplinaire que nous proposons a ouvert ses portes à Bordeaux en septembre 2002.
 
 Depuis 2005, les DUT s’inscrivent dans l’Espace européen de l’enseignement supérieur et dans le schéma LMD (Licence Master Doctorat).
-  
+
 Le département MMI Bordeaux a pour but de former des spécialistes des nouvelles technologies avec un sens développé de la communication. Il s’agit de permettre aux étudiants d’acquérir de véritables compétences de spécialistes polyvalents, fondées simultanément sur :
 
   * Une habileté et un goût prononcé pour la mise en forme de l’information
@@ -24,8 +24,8 @@ Les « technico-communiquants » du département représentent l’interface id�
 Le département MMI Bordeaux est un établissement public et notre équipement est subventionné à 40 % par le Conseil Régional d’Aquitaine. Grâce à des matériels de haut niveau résolument tournés vers les médias (plateau TV, studio d’enregistrement radio, systèmes informatiques et logiciels associés), MMI Bordeaux domine le multimédia et s’affirme dans le polymédia : « être capable de maîtriser la multiplicité des supports au service de l’entreprise ».
 
 > Alors, que vous soyez un professionnel, une entreprise, un lycéen ou un étudiant, rejoignez-nous pour devenir acteur dans le monde des nouveaux médias !
-  
-> _Delphine Reyss, Chef de Département_
+
+> _Marlène Dulaurans, Chef de Département_
 
 ### Contenu de la formation
 
@@ -70,13 +70,13 @@ Les **2 années d&rsquo;études** sont organisées en quatre semestres (avec des
   * Projets tuteurés : Travaux en binôme ou trinôme sur des projets professionnels.
 
 > Le Programme Pédagogique National (PPN) est en constante « réflexion », de façon à suivre les évolutions économiques et technologiques des diverses professions.
-  
+
 ### Et après MMI ?
 
 > Deux choix s’offrent à vous pour l’après MMI : une **insertion professionnelle** ou une **poursuite d’études**.
 
 C&rsquo;est vous qui déterminerez lors du **PPP (Projet Personnel Professionnel)** votre choix d’orientation en correspondance avec vos compétences et capacités : le secteur d’activité dans lequel vous souhaitez travailler, le métier ou la famille de métiers ainsi que l’itinéraire correspondant.
-  
+
 Comme poursuite d’études, nous pouvons citer principalement les licences professionnelles et tout à fait exceptionnellement les écoles d’ingénieurs.
 
 ### Alternance

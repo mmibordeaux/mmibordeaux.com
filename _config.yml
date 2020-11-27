@@ -1,6 +1,6 @@
 url: https://www.mmibordeaux.com
 title: MMI Bordeaux
-description: DUT (Diplôme Universitaire de Technologie) MMI (Métiers du Multimedia & de l'Internet) à Bordeaux
+description: BUT (Bachelor Universitaire de Technologie) MMI (Métiers du Multimedia & de l'Internet) à Bordeaux
 markdown: kramdown
 plugins:
   - jekyll-feed

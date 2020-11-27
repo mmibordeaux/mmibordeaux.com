@@ -7,8 +7,8 @@
 # - name: Contact
 #   path: "#contact"
 #   section_id: contact
-- name: DUT MMI
-  path: /dut-mmi
+- name: BUT MMI
+  path: /but-mmi
 - name: Equipe
   path: /equipe
 - name: Entreprises
