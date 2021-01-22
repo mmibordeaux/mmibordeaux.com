@@ -13,8 +13,8 @@
   path: /equipe
 - name: Entreprises
   path: /entreprises
-- name: Blog
-  path: /blog
+# - name: Blog
+#   path: /blog
 # - name: Services
 #   path: "#services"
 #   section_id: services
