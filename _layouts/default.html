@@ -1,25 +1,18 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {% include head.html %}
-
-  <body class="{{ page.collection }}">
-
-    <a id='top'></a>
-
-    {% include header.html %}
-
-    {% if page.onepage %}
-      {% assign classname = 'top-shift' %}
-    {% else %}
-      {% assign classname = '' %}
-    {% endif %}
-
-    <div id="main" class="{{ classname }}">
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{page.description}}">
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  </head>
+  <body>
+    {% include nav.html %}
+    <main id="contenu" class="container mt-5">
       {{ content }}
-    </div>
-
-    {% include footer.html %}
-
+    </main>
+    <script src="/assets/javascripts/bootstrap.bundle.min.js"></script>
   </body>
 </html>
