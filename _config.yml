@@ -1,1 +1,38 @@
 title: MMI Bordeaux
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "competencies" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "competency"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "paths" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "path"
+
+collections:
+  competencies:
+    output: true
+    permalink: /competences/:name
+    order:
+      - comprendre.html
+      - concevoir.html
+      - exprimer.html
+      - developper.html
+      - entrependre.html
+  paths:
+    output: true
+    permalink: /parcours/:name
+    order:
+      - strategie-de-communication-numerique-et-design-d-experience.html
+      - creation-numerique.html
+      - developpement-web-et-dispositifs-interactifs.html

@@ -1,0 +1,16 @@
+<section>
+  <div class="row">
+    <div class="offset-1 col-10">
+      <h2>3 parcours pour 3 familles de métiers</h2>
+    </div>
+  </div>
+  <div class="row">
+    {% for path in site.paths %}
+      <article class="{{ site.data.grid.classes[forloop.index0] }}">
+        <h3><a href="{{ path.url }}">{{ path.title }}</a></h3>
+        <p>{{ path.description }}</p>
+        <a href="{{ path.url }}" class="btn">En savoir plus</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>

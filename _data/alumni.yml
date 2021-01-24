@@ -1,0 +1,247 @@
+- name: Marjorie Tailleur
+  promotion: 2004
+  bac:
+  job: Chef de projet Digital @ Kizuna
+  site:
+  linkedin: https://www.linkedin.com/in/marjorie-tailleur-442aa6b6/
+  gender: F
+  paths:
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Benjamin Sonet
+  promotion: 2004
+  bac:
+  job: Co-Founder & CEO @ MyBalthazar
+  site:
+  linkedin: https://www.linkedin.com/in/bsonet/
+  gender: M
+  paths:
+    - /competences/entreprendre
+- name: Xuan Pham
+  promotion: 2004
+  bac:
+  job: Europe Creative Director / Prime Video @ Amazon
+  site: http://www.xuan-pham.com/
+  linkedin: https://www.linkedin.com/in/xuanpham/
+  gender: M
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Benoist Véret
+  promotion: 2004
+  bac:
+  job: CEO NetOnly - Conseil en communication digitale - Co-fondateur La Proue
+  site: https://www.netonly.net
+  linkedin: https://www.linkedin.com/in/benoist-v%C3%A9ret-39685965/
+  gender: M
+  paths:
+    - /competences/entreprendre
+- name: Sandy Blanchet
+  promotion: 2005
+  bac:
+  job: PO/PM/UX/UI Design @ Freelance @ monkeyAgency
+  site:
+  linkedin: https://www.linkedin.com/in/sandy-blanchet/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Romain Boyer
+  promotion: 2005
+  bac:
+  job: eCommerce & Product @ Chefclub.tv!
+  site:
+  linkedin: https://www.linkedin.com/in/romainboyer/
+  gender: M
+  paths:
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Claire Sécula
+  promotion: 2005
+  bac:
+  job: Chargée de communication
+  site:
+  linkedin: https://www.linkedin.com/in/claire-s%C3%A9cula-0a366274/
+  gender: F
+  paths:
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Fabrice Feugas
+  promotion: 2005
+  bac:
+  job: Directeur Relation Adhérent @ France Digitale
+  site:
+  linkedin: https://www.linkedin.com/in/fabricefeugas/
+  gender: M
+  paths:
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Alexandre Métier
+  promotion: 2005
+  bac:
+  job: Director of Data and Analytics / Chief Data Officer @ Croix Bleue du Québec
+  site:
+  linkedin: https://www.linkedin.com/in/alexandremetier/
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Justin Puyo
+  promotion: 2005
+  bac :
+  job: Coordinateur audiovisuel et multimédia @ IUT Bordeaux Montaigne
+  site:
+  linkedin: https://www.linkedin.com/in/justinpuyo/
+  gender: M
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: France Quiqueré
+  promotion: 2006
+  bac:
+  job: Making yolo games since 2002 - Game Artist - UI/UX Designer
+  site: http://int13.net/france/portfolio
+  linkedin: https://www.linkedin.com/in/francequiquere/
+  gender: F
+  paths:
+    - /competences/exprimer
+    - /competences/entreprendre
+    - /parcours/creation-numerique
+- name: Emmanuel Bonnet
+  promotion: 2006
+  bac:
+  job: Co-fondateur @ La Phase 5
+  site: https://www.laphase5.com
+  linkedin: https://www.linkedin.com/in/ebonnet/
+  gender: M
+  paths:
+    - /competences/developper
+    - /competences/entreprendre
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Chloé Chevalier
+  promotion: 2006
+  bac: ES
+  job: UX designer
+  linkedin: https://www.linkedin.com/in/chloechevalier/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Clément Dussarps
+  promotion: 2006
+  bac:
+  job: Maître de conférences @ INSPE, Docteur en Sciences de l'Information et de la Communication
+  site:
+  linkedin: https://www.linkedin.com/in/cl%C3%A9ment-dussarps-32412144/
+  gender: M
+  paths:
+    - /competences/comprendre
+- name: Pierre Lepers
+  promotion: 2006
+  bac:
+  job: Senior Interactive Developer @ Make Me Pulse
+  site:
+  linkedin: https://www.linkedin.com/in/pierre-lepers-3512744/
+  gender: M
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Mathieu Vignau
+  promotion: 2006
+  bac: S
+  job: Interactive Prototyper, Spectacles @ Snap Inc. (California)
+  site:
+  linkedin: https://www.linkedin.com/in/mvignau/
+  gender: M
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Damien Cuzacq
+  promotion: 2007
+  job: Lead Game Designer @ Asobo Studio on Microsoft Flight Simulator
+  linkedin: https://www.linkedin.com/in/damien-cuzacq-4a636558/
+  gender: M
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Victor Lamant
+  promotion: 2007
+  bac: L
+  job: Brand Planning Europe @ Nike Direct (Amsterdam)
+  linkedin: https://www.linkedin.com/in/victorlamant/
+  gender: M
+  paths:
+    - /competences/concevoir
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Damien Petton
+  promotion: 2007
+  job: Co-fondateur & Développeur Front-End @ Switch
+  site: https://switch.paris
+  linkedin: https://www.linkedin.com/in/damien-petton/
+  gender: M
+  paths:
+    - /competences/developper
+    - /competences/entreprendre
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Philippe Albert
+  promotion: 2008
+  job: Digital product manager @ Sellsy
+  linkedin: https://www.linkedin.com/in/philippe-albert-6964b33/
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Damien Alexandre
+  promotion: 2008
+  job: Expert Elasticsearch et PHP @ JoliCode
+  linkedin: https://www.linkedin.com/in/damienalexandre/
+  gender: M
+  paths:
+    - /competences/developper
+    - /competences/entreprendre
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Antoine Schirer
+  promotion: 2008
+  bac:
+  job: Video producer, motion designer and journalist
+  site: https://antoineschirer.fr
+  linkedin:
+  gender: M
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Nicolas Cargou
+  promotion: 2009
+  bac:
+  job: SamBoat CoFounder & Member G20 YEA
+  site: https://www.samboat.fr
+  linkedin: https://www.linkedin.com/in/nicolas-cargou-6b59b029/
+  gender: M
+  paths:
+    - /competences/entreprendre
+- name: Kora Saccharin
+  promotion: 2011
+  bac:
+  job: Analyste en threat intelligence @ CEIS
+  site:
+  linkedin: https://www.linkedin.com/in/kora-saccharin/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/exprimer
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Julie Mirande
+  promotion: 2011
+  bac:
+  job: "Communication digitale #GreenTech #TechForGood 👩🏻‍💻🌿"
+  site:
+  linkedin: https://www.linkedin.com/in/juliemirande/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir

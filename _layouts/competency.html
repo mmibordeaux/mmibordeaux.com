@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="offset-1 col-4">
+    <h2>{{ page.description }}</h2>
+  </div>
+  <div class="offset-5 col-5">
+    <ul class="list-unstyled">
+      {% for component in page.components %}
+      <li>{{ component }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% include alumni.html %}
