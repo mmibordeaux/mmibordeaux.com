@@ -6,7 +6,8 @@
   </div>
   <div class="row">
     {% for competency in site.competencies %}
-      <article class="{{ site.data.grid.classes[forloop.index0] }}">
+    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+      <article class="{{ site.data.grid.classes[mod] }}">
         <h3><a href="{{ competency.url }}">{{ competency.title }}</a></h3>
         <p>{{ competency.description }}</p>
         <a href="{{ competency.url }}" class="btn">En savoir plus</a>

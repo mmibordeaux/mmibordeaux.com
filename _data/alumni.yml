@@ -214,6 +214,53 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+- name: Thibaut Charron
+  promotion: 2008
+  bac: L
+  job: Line producer @ Asmodee Digital
+  linkedin: https://www.linkedin.com/in/thibautcharron/
+  gender: M
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Claire Tauziet
+  promotion: 2008
+  bac:
+  job: Product Designer @ Google (California)
+  linkedin: https://www.linkedin.com/in/clairetauziet/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Charlie Montagut
+  promotion: 2008
+  bac:
+  job: Senior Art Director
+  linkedin: https://www.linkedin.com/in/charliemontagut/
+  gender: M
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Anne-Laure Poulain
+  promotion: 2008
+  bac:
+  job: Motion designer
+  linkedin: https://www.linkedin.com/in/annelaurepoulain/
+  gender: F
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Yuna Orsini
+  promotion: 2009
+  bac:
+  job: Designer UX
+  linkedin: https://www.linkedin.com/in/yunaorsini/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - name: Nicolas Cargou
   promotion: 2009
   bac:
