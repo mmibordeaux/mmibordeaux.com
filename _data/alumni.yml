@@ -292,7 +292,7 @@
 - name: David Farez
   promotion: 2009
   bac:
-  job: Product & Service Design - CEO @ Clint
+  job: Product & Service Design - CEO @ Clintagency
   site: https://clintagency.com
   linkedin: https://www.linkedin.com/in/davidfarez/
   gender: M
@@ -341,6 +341,36 @@
     - /competences/developper
     - /competences/entreprendre
     - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Loïc Lepetit
+  promotion: 2010
+  bac: ES
+  job: Responsable de l'Équipe Social Media - Social Media Strategist @ La Chose
+  linkedin: https://www.linkedin.com/in/loiclepetit/
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Margaux Lespagne
+  promotion: 2010
+  job: UX Designer & UX Researcher @ AKQA
+  linkedin: https://www.linkedin.com/in/margauxlespagne/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Alex Roubinet
+  promotion: 2010
+  job: Product & Service Design - Fondateur & Président @ Clintagency
+  linkedin: https://www.linkedin.com/in/alexroubinet/
+  site: https://clintagency.com
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - name: Pauline Maisonnave
   promotion: 2010
   bac:
@@ -349,6 +379,15 @@
   gender: F
   paths:
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Antoine Lenoir
+  promotion: 2010
+  job: Directeur technique @ Clintagency
+  linkedin: https://www.linkedin.com/in/antoine-lenoir-63b92510/
+  site: https://clintagency.com
+  gender: M
+  paths:
+  - /competences/developper
+  - /parcours/developpement-web-et-dispositifs-interactifs
 - name: Kora Saccharin
   promotion: 2011
   bac:
@@ -361,6 +400,27 @@
     - /competences/exprimer
     - /competences/developper
     - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Jean-Baptiste Guignot
+  promotion: 2011
+  bac:
+  job: Capitaine @ Les Pirates, Associé @ Corsaires Studio
+  linkedin: https://www.linkedin.com/in/jbguignot/
+  site: https://lespirates.video
+  gender: M
+  paths:
+    - /competences/exprimer
+    - /competences/entreprendre
+    - /parcours/creation-numerique
+- name: Chloé Beghin
+  promotion: 2011
+  bac: ES
+  job: Conseil, formation et conception en UX Design, accessibilité, qualité web (certifiée Opquast expert)
+  linkedin: https://www.linkedin.com/in/chloebeghin/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - name: Julie Mirande
   promotion: 2011
   bac:
@@ -371,3 +431,147 @@
   paths:
     - /competences/comprendre
     - /competences/concevoir
+- name: Valentin Moreau
+  promotion: 2012
+  job: Chef de Groupe Digital @ TBWA\Paris
+  linkedin: https://www.linkedin.com/in/valentinmoreau/
+  gender: M
+  paths:
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Paméla Hamille
+  promotion: 2012
+  job: Intégrateur @ Arobiz
+  linkedin: https://www.linkedin.com/in/hpamela/
+  gender: F
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Benoit Morin
+  promotion: 2012
+  job: Planneur Stratégique @ Webedia
+  linkedin: https://www.linkedin.com/in/benoitmorinwebedia/
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Perroline Paganon
+  promotion: 2012
+  job: Media Trader @ Numberly
+  linkedin: https://www.linkedin.com/in/perroline-paganon-a5520626/
+  gender: F
+  paths:
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Antonin Langlade
+  promotion: 2013
+  job: Technical lead @ Unlikely
+  linkedin: https://www.linkedin.com/in/antoninlanglade/
+  site:
+  gender: M
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Marjolaine Didier
+  promotion: 2013
+  job: Responsable acquisition de trafic @ Cadremploi
+  linkedin: https://www.linkedin.com/in/marjolainedidier/
+  gender: F
+  paths:
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Alexis Benoit
+  promotion: 2014
+  job: Creative Web Developer Senior, Maître de conférences associé @ IUT Bordeaux Montaigne
+  linkedin: https://www.linkedin.com/in/alexisbenoit/
+  gender: M
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Marie-Aline Millot
+  promotion: 2014
+  bac: Pro Carrosserie
+  job: Head of Design @ Weekendesk
+  linkedin: https://www.linkedin.com/in/mariealine/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Clara Rigaud
+  promotion: 2014
+  bac: Techno Electronique
+  job: Doctorante @ Institut des Systèmes Intelligents et de Robotique
+  linkedin: https://www.linkedin.com/in/clararigaud/
+  gender: F
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Sylvain Doignon
+  promotion: 2014
+  bac:
+  job: DevOps Engineer @ KDS (London)
+  linkedin: https://www.linkedin.com/in/sylvain-doignon/
+  gender: M
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Léa Vignaud
+  promotion: 2014
+  bac: ES
+  job: Webdesigner / Intégrateur @ Agence AWAM
+  linkedin: https://www.linkedin.com/in/leavignaud/
+  gender: F
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Juliette Rivière
+  promotion: 2015
+  bac: S
+  job: Ingénieur Concepteur Développeur Web @SQLI
+  linkedin: https://www.linkedin.com/in/julietteriviere3/
+  gender: F
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Guillaume Chevrat
+  promotion: 2016
+  bac:
+  job: Product Owner @ Tiqets (Amsterdam)
+  linkedin: https://www.linkedin.com/in/guillaumechevrat/
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Léna Defay
+  promotion: 2016
+  bac: S
+  job: Human System Interaction Engineer & User Researcher @ Step Innovation Hub (Berlin)
+  linkedin: https://www.linkedin.com/in/lenadefay/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Quentin Leconte
+  promotion: 2016
+  bac: S
+  job: Directeur général @ Acrib
+  linkedin: https://www.linkedin.com/in/quentinleconte/
+  gender: M
+  paths:
+    - /competences/developper
+    - /competences/entreprendre
+    - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Charles Prévôt
+  promotion: 2016
+  bac: S
+  job: Chef de projet en charge du développement digital @ Agence bdc conseil
+  linkedin: https://www.linkedin.com/in/prevotcharles/
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
