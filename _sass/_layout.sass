@@ -63,3 +63,31 @@ nav
     text-decoration: none
   .navbar-brand
     width: 120px
+
+.navmobile
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  z-index: 1000
+  &__panel
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    backdrop-filter: blur(10px)
+    background: rgba(255, 255, 255, 0.7)
+    z-index: 999
+    margin-top: 60px
+    a
+      font-size: 25px
+      padding-top: 20px
+  &__top
+    position: fixed
+    backdrop-filter: blur(10px)
+    background: rgba(255, 255, 255, 0.7)
+    top: 0
+    left: 0
+    right: 0
+    height: 60px

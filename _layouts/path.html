@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="row">
-  <div class="offset-1 col-4">
+  <div class="offset-1 col-10 col-md-4">
     <h2>{{ page.description }}</h2>
   </div>
 </div>
@@ -11,7 +11,7 @@ layout: default
 {% for year in page.years %}
   {% assign year_index = forloop.index0 %}
   <div class="row">
-    <div class="offset-1 col-4">
+    <div class="offset-1 col-10 col-md-4">
       <h2>{{ year.title }}</h2>
     </div>
   </div>

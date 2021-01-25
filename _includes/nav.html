@@ -12,28 +12,44 @@
         <li class="nav-item"><a class="nav-link" href="/parcours">Parcours</a></li>
       </ul>
     </div>
-    <div class=" offset-1 col-2">
+    <div class=" col-2">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="/ateliers">Ateliers</a></li>
         <li class="nav-item"><a class="nav-link" href="/candidatures">Candidatures</a></li>
       </ul>
     </div>
   </div>
-  <div class="row d-lg-none">
-    <div class="offset-1 col-2">
-      <a class="navbar-brand" href="/">
-        <img src="/assets/images/logo.svg" alt="MMI Bordeaux" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-8 text-end">
-      <a  href="#navbar"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar"
-          aria-controls="navbar"
-          aria-expanded="false"
-          aria-label="Afficher/masquer la navigation">
-        Menu
-      </a>
+  <div class="d-md-none m-4">
+    <div class="navmobile">
+      <div class="collapse navmobile__panel">
+        <div class="row">
+          <div class="offset-1 col-10">
+            <ul class="navbar-nav text-end">
+              <li class="nav-item"><a class="nav-link" href="/ateliers">Ateliers</a></li>
+              <li class="nav-item"><a class="nav-link" href="/candidatures">Candidatures</a></li>
+              <li class="nav-item"><a class="nav-link" href="/ateliers">Ateliers</a></li>
+              <li class="nav-item"><a class="nav-link" href="/candidatures">Candidatures</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3 navmobile__top">
+        <div class="offset-1 col-2">
+          <a class="navbar-brand" href="/">
+            <img src="/assets/images/logo.svg" alt="MMI Bordeaux" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-8 text-end pt-2">
+          <a  href="#navbar"
+              data-bs-toggle="collapse"
+              data-bs-target=".navmobile__panel"
+              aria-controls="navbar"
+              aria-expanded="false"
+              aria-label="Afficher/masquer la navigation">
+            Menu
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </nav>

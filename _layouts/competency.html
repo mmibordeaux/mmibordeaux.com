@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="row">
-  <div class="offset-1 col-4">
-    <h2>{{ page.description }}</h2>
+  <div class="offset-1 col-10 col-md-4">
+    <h2 class="mb-3">{{ page.description }}</h2>
   </div>
-  <div class="offset-5 col-5">
+  <div class="offset-1 col-10 offset-md-5 col-md-5">
     <ul class="list-unstyled">
       {% for component in page.components %}
-      <li>{{ component }}</li>
+      <li class="mb-2">{{ component }}</li>
       {% endfor %}
     </ul>
   </div>
