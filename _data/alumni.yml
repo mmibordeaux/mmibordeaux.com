@@ -341,6 +341,14 @@
     - /competences/developper
     - /competences/entreprendre
     - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Pauline Maisonnave
+  promotion: 2010
+  bac:
+  job: Directrice de projet @ Sweet Punk
+  linkedin: https://www.linkedin.com/in/paulinemaisonnave/
+  gender: F
+  paths:
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - name: Kora Saccharin
   promotion: 2011
   bac:

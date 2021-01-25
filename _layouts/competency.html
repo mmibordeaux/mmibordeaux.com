@@ -15,4 +15,48 @@ layout: default
   </div>
 </div>
 
+<section>
+  <div class="row">
+    <div class="offset-1 col-10">
+      <h2>Situations</h2>
+    </div>
+  </div>
+  <div class="row">
+    {% for situation in page.situations %}
+    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+      <article class="{{ site.data.grid.classes[mod] }}">
+        <h3>{{ situation.title }}</h3>
+        <p>{{ situation.description }}</p>
+      </article>
+    {% endfor %}
+  </div>
+
+  <section>
+    <div class="row">
+      <div class="offset-1 col-10">
+        <h2>Niveaux</h2>
+      </div>
+    </div>
+    {% for level in page.levels %}
+      <div class="row mt-5">
+        <div class="offset-1 col-10 col-md-3">
+          <h3 class="mt-0">{{ level.title }}</h3>
+          <p class="small text-muted">{{ level.description }}</p>
+        </div>
+        <div class="offset-1 col-10 col-md-6">
+          <ul class="list-unstyled">
+            {% for learning in level.learnings %}
+              <li class="mb-2">{{ learning }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endfor %}
+    <div class="row">
+      {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+        <article class="{{ site.data.grid.classes[mod] }}">
+          <p>{{ situation.description }}</p>
+        </article>
+    </div>
+
 {% include alumni.html %}
