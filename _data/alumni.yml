@@ -270,6 +270,77 @@
   gender: M
   paths:
     - /competences/entreprendre
+- name: Mylène Guérin
+  promotion: 2009
+  bac:
+  job: Compositing Artist @ Flying Bark Productions (Queensland, Australia)
+  site: https://myleneguerin.com
+  linkedin: https://www.linkedin.com/in/myleneguerin/
+  gender: F
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- name: Caroline de Lorgeril
+  promotion: 2009
+  bac:
+  job: Chargée d'études et de clientèle @ Médiamétrie
+  linkedin: https://www.linkedin.com/in/carolinedelorgeril/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: David Farez
+  promotion: 2009
+  bac:
+  job: Product & Service Design - CEO @ Clint
+  site: https://clintagency.com
+  linkedin: https://www.linkedin.com/in/davidfarez/
+  gender: M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Alice Fournier
+  promotion: 2009
+  bac:
+  job: Responsable de la communication et de l'administration numérique @ Mairie de Blanquefort
+  linkedin: https://www.linkedin.com/in/alicefournier/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Marie Larrière
+  promotion: 2009
+  bac:
+  job: Head of Business Operations @ CustomConcept (Amsterdam)
+  linkedin: https://www.linkedin.com/in/marielarriere/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Audrey Troyes
+  promotion: 2009
+  bac:
+  job: Chargée d'administration et de production @ Collectif La Tambouille
+  linkedin: https://www.linkedin.com/in/audreytroyes/
+  gender: F
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Thierry Poinot
+  promotion: 2009
+  bac:
+  job: Développeur Web & Co-gérant @ Shoot Shoot Digital
+  linkedin: https://www.linkedin.com/in/thierrypoinot/
+  gender: M
+  paths:
+    - /competences/developper
+    - /competences/entreprendre
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - name: Kora Saccharin
   promotion: 2011
   bac:

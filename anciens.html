@@ -6,14 +6,15 @@ title: Anciens MMI
 {% assign f = site.data.alumni | where: 'gender', 'F' %}
 <div class="row">
   <div class="offset-1 col-10">
-    <h2>
+    <p class="small">
       {{ m.size }} + {{ f.size }} = {{ site.data.alumni.size }}
-    </h2>
+    </p>
   </div>
 </div>
 <section>
   <div class="row">
-    {% for alum in site.data.alumni %}
+    {% assign alumni = site.data.alumni | reverse %}
+    {% for alum in alumni %}
       {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
       <article class="{{ site.data.grid.classes[mod] }} mt-5">
         <img src="/assets/images/alumni/{{ alum.name | slugify: 'latin' }}.jpeg" alt="{{ alum.name }}" class="img-fluid img-full">
@@ -25,12 +26,11 @@ title: Anciens MMI
           {{ alum.job }}
         </p>
         {% if alum.linkedin %}
-          <a href="{{ alum.linkedin }}" class="btn" target="_blank" rel="noreferrer">LinkedIn</a><br>
+          <a href="{{ alum.linkedin }}" class="btn" target="_blank" rel="noreferrer">LinkedIn</a>
         {% endif %}
         {% if alum.site %}
-          <a href="{{ alum.site }}" class="btn" target="_blank" rel="noreferrer">Site</a><br>
+          <a href="{{ alum.site }}" class="btn" target="_blank" rel="noreferrer">Site</a>
         {% endif %}
-
         <ul class="list-unstyled">
           {% for path in alum.paths %}
             <li>{{ path }}</li>

@@ -1,5 +1,5 @@
 {% assign pattern = "alum.paths contains '" | append: page.url | append: "'" %}
-{% assign alums = site.data.alumni | where_exp: "alum", pattern %}
+{% assign alums = site.data.alumni | where_exp: "alum", pattern | reverse %}
 
 <section>
   <div class="row">
@@ -20,10 +20,10 @@
           {{ alum.job }}
         </p>
         {% if alum.linkedin %}
-          <a href="{{ alum.linkedin }}" class="btn" target="_blank" rel="noreferrer">LinkedIn</a><br>
+          <a href="{{ alum.linkedin }}" class="btn" target="_blank" rel="noreferrer">LinkedIn</a>
         {% endif %}
         {% if alum.site %}
-          <a href="{{ alum.site }}" class="btn" target="_blank" rel="noreferrer">Site</a><br>
+          <a href="{{ alum.site }}" class="btn" target="_blank" rel="noreferrer">Site</a>
         {% endif %}
       </article>
     {% endfor %}
