@@ -8,4 +8,31 @@ layout: default
   </div>
 </div>
 
+{% for year in page.years %}
+  {% assign year_index = forloop.index0 %}
+  <div class="row">
+    <div class="offset-1 col-4">
+      <h2>{{ year.title }}</h2>
+    </div>
+  </div>
+  {% for competency_name in year.competencies %}
+    <div class="row mt-5">
+      <div class="offset-1 col-10 col-md-3">
+        {% assign url = '/competences/' | append: competency_name %}
+        {% assign competency = site.competencies | where: 'url', url | first %}
+        {% assign level = competency.levels[year_index] %}
+        <h3 class="mt-0">{{ level.title }}</h3>
+        <p class="small text-muted">Compétence <a href="{{ competency.url }}">{{ competency.title }}</a></p>
+      </div>
+      <div class="offset-1 col-10 col-md-6">
+        <ul class="list-unstyled">
+          {% for learning in level.learnings %}
+          <li class="mb-2">{{ learning }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+{% endfor %}
+
 {% include alumni.html %}
