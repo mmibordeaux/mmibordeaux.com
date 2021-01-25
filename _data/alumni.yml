@@ -575,3 +575,12 @@
     - /competences/comprendre
     - /competences/concevoir
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Manon Lavie
+  promotion: 2016
+  bac: L
+  job: Directrice artistique @ Gallimedia Agence Web
+  linkedin: https://www.linkedin.com/in/manonlavie/
+  gender: F
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
