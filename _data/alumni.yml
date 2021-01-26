@@ -584,3 +584,12 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+- name: Emma Jouffroy
+  promotion: 2017
+  bac: S
+  job: Doctorante en Intelligence Artificielle @ CEA
+  linkedin: https://www.linkedin.com/in/emma-jouffroy-563158107/
+  gender: F
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
