@@ -8,16 +8,22 @@ defaults:
       layout: "default"
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "competencies" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "competencies"
     values:
       layout: "competency"
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "paths" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "paths"
     values:
       layout: "path"
+  -
+    scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop"
 
 collections:
   competencies:
@@ -36,3 +42,6 @@ collections:
       - strategie-de-communication-numerique-et-design-d-experience.html
       - creation-numerique.html
       - developpement-web-et-dispositifs-interactifs.html
+  workshops:
+    output: true
+    permalink: /ateliers/:name

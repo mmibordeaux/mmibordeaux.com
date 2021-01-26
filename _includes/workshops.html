@@ -1,0 +1,17 @@
+<section>
+  <div class="row">
+    <div class="offset-1 col-10">
+      <h2>Une pédagogie par ateliers interdisciplinaires</h2>
+    </div>
+  </div>
+  <div class="row">
+    {% for workshop in site.workshops %}
+    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+      <article class="{{ site.data.grid.classes[mod] }}">
+        <h3><a href="{{ workshop.url }}">{{ workshop.title }}</a></h3>
+        <p>{{ workshop.description }}</p>
+        <a href="{{ workshop.url }}" class="btn">En savoir plus</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
