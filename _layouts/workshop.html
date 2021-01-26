@@ -10,21 +10,40 @@ layout: default
   </div>
 </div>
 
-{% assign images_path = page.path | remove: '_' | remove: '.html' %}
-<section>
-  <div class="row">
-    <div class="offset-1 col-10">
-      <h2>Quelques images de l'atelier</h2>
+{% if page.youtube_videos %}
+  <section>
+    <div class="row">
+      <div class="offset-1 col-10">
+        <h2>L'atelier en vidéo</h2>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="offset-1 col-10 offset-md-5 col-md-6">
-      {% for image in page.images %}
-      <img src="/assets/images/{{ images_path }}/{{image}}" alt="" class="img-fluid img-thumbnail mb-4">
-      {% endfor %}
+    <div class="row">
+      <div class="offset-1 col-10 offset-md-5 col-md-6">
+        {% for video in page.youtube_videos %}
+          {% include youtube.html id=video title="" %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+{% endif %}
+
+{% if page.images %}
+  {% assign images_path = page.path | remove: '_' | remove: '.html' %}
+  <section>
+    <div class="row">
+      <div class="offset-1 col-10">
+        <h2>L'atelier en images</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-1 col-10 offset-md-5 col-md-6">
+        {% for image in page.images %}
+        <img src="/assets/images/{{ images_path }}/{{image}}" alt="" class="img-fluid img-thumbnail mb-4">
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
 
 
 {{ content }}
