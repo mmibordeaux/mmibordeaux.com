@@ -213,6 +213,7 @@
   gender: M
   paths:
     - /competences/exprimer
+    - /competences/entreprendre
     - /parcours/creation-numerique
 - name: Thibaut Charron
   promotion: 2008
@@ -241,6 +242,7 @@
   gender: M
   paths:
     - /competences/exprimer
+    - /competences/entreprendre
     - /parcours/creation-numerique
 - name: Anne-Laure Poulain
   promotion: 2008
@@ -250,6 +252,7 @@
   gender: F
   paths:
     - /competences/exprimer
+    - /competences/entreprendre
     - /parcours/creation-numerique
 - name: Yuna Orsini
   promotion: 2009
@@ -270,6 +273,7 @@
   gender: M
   paths:
     - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - name: Mylène Guérin
   promotion: 2009
   bac:
@@ -421,6 +425,7 @@
   paths:
     - /competences/comprendre
     - /competences/concevoir
+    - /competences/entreprendre
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - name: Julie Mirande
   promotion: 2011
