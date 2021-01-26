@@ -593,3 +593,12 @@
   paths:
     - /competences/developper
     - /parcours/developpement-web-et-dispositifs-interactifs
+- name: Sébastien Gaya
+  promotion: 2018
+  bac: S
+  job: Développeur back-end @ Les Poupées Russes
+  linkedin: https://www.linkedin.com/in/sebastien-gaya/
+  gender: M
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
