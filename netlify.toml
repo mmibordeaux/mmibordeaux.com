@@ -1,5 +1,20 @@
 [[redirects]]
-  from = "/but-mmi.html"
-  to = "/"
-  status = 301
-  force = false
+from = "/but-mmi.html"
+to = "/candidatures"
+status = 301
+force = false
+[[redirects]]
+from = "/equipe.html"
+to = "/"
+status = 301
+force = false
+[[redirects]]
+from = "/entreprises.html"
+to = "/"
+status = 301
+force = false
+[[redirects]]
+from = "/blog/*"
+to = "/"
+status = 301
+force = false
