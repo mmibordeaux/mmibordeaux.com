@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
+  from = "/but-mmi.html"
   to = "/"
   status = 301
   force = false
