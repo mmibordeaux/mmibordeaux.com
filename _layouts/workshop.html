@@ -6,7 +6,12 @@ layout: default
     <h2 class="mb-3">{{ page.description }}</h2>
   </div>
   <div class="offset-1 col-10 offset-md-5 col-md-6">
-    {{ page.text }}
+    <p>
+      {{ page.text }}
+    </p>
+
+    {{ content }}
+
   </div>
 </div>
 
@@ -44,6 +49,3 @@ layout: default
     </div>
   </section>
 {% endif %}
-
-
-{{ content }}

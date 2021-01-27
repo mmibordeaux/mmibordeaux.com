@@ -355,6 +355,15 @@
     - /competences/comprendre
     - /competences/concevoir
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- name: Félix Aymé
+  promotion: 2010
+  bac:
+  job: Senior security researcher and threat intel wizard @ Kaspersky Lab
+  linkedin: https://www.linkedin.com/in/f%C3%A9lix-aim%C3%A9-59505611/
+  gender: M
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - name: Margaux Lespagne
   promotion: 2010
   job: UX Designer & UX Researcher @ AKQA
