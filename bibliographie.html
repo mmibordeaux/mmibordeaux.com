@@ -7,13 +7,13 @@ title: Bibliographie
     <h2>Ressources indispensables</h2>
   </div>
 </div>
-{% assign books = site.data.bibliography | where: 'mandatory', true %}
-{% include books.html books=books %}
+{% assign bibliography = site.data.bibliography | where: 'mandatory', true %}
+{% include bibliography.html bibliography=bibliography %}
 
 <div class="row">
   <div class="offset-1 col-10">
     <h2>Ressources recommandées</h2>
   </div>
 </div>
-{% assign books = site.data.bibliography | where: 'mandatory', false %}
-{% include books.html books=books %}
+{% assign bibliography = site.data.bibliography | where: 'mandatory', false %}
+{% include bibliography.html bibliography=bibliography %}

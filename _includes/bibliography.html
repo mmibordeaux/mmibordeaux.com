@@ -1,10 +1,10 @@
-{% for book in include.books %}
+{% for book in include.bibliography %}
   <div class="row mt-5">
     <div class="offset-1 col-10 col-md-2 mt-3">
       <img  src="/assets/images/bibliography/{{ book.cover }}"
             alt="{{ book.title }}"
             width="600"
-            class="img-fluid img-full">
+            class="img-fluid img-full img-thumbnail">
     </div>
     <div class="offset-1 col-10 offset-md-1 col-md-4 mt-3">
       <h3 class="mt-0">{{ book.title }}</h3>
