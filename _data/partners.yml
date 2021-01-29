@@ -1,0 +1,26 @@
+- name: Opquast
+  logo: opquast.svg
+  url: https://www.opquast.com
+- name: Institut du Numérique Responsable
+  logo: inr.jpeg
+  url: https://institutnr.org
+# - name: Pitch Climat
+- name: Latitudes
+  logo: latitudes.webp
+  url: https://www.latitudes.cc
+- name: AT Internet
+  logo: atinternet.svg
+  url: https://www.atinternet.com
+- name: Gendarmerie Nationale N’TECH
+  logo: ntech.jpg
+  url: https://www.lagendarmerierecrute.fr/metiers/unite-de-police-judiciaire/gendarme-n-tech
+# - name: Fresque du Numérique
+- name: French Tech Bordeaux
+  logo: ft.svg
+  url: https://www.frenchtechbordeaux.com
+- name: ISIC
+  logo: isic.png
+  url: http://isic-bordeaux-montaigne.fr
+- name: MICA
+  logo: mica.png
+  url: https://mica.u-bordeaux-montaigne.fr

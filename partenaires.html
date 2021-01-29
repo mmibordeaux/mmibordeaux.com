@@ -1,0 +1,20 @@
+---
+title: Partenaires
+---
+
+<section>
+  <div class="row">
+    {% assign partners = site.data.partners | sort: 'name' %}
+    {% for partner in partners %}
+      {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+      <article class="{{ site.data.grid.classes[mod] }} mt-5">
+        <a href="{{ partner.url }}" target="_blank" rel="noreferrer">
+          <img  src="/assets/images/partners/{{ partner.logo }}"
+                alt="{{ partner.name }}"
+                width="600"
+                class="img-fluid">
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
