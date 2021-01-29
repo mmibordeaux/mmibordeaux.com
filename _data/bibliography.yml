@@ -14,10 +14,19 @@
   url: https://www.seuil.com/ouvrage/introduction-a-la-pensee-complexe-edgar-morin/9782757842003
   isbn: 9782757842003
   mandatory: true
+- title: Ergonomie web et UX Design
+  author: Amélie Boucher
+  cover: ergonomie-web.jpeg
+  summary: "Tout service numérique doit réussir le pari difficile de satisfaire ses utilisateurs. Mais comment bien comprendre ces derniers et se mettre à leur place&nbsp;? Comment concevoir un site si agréable et efficace qu'il donne envie d'y revenir&nbsp;? Grâce aux conseils pratiques et méthodologiques d'Amélie Boucher dans ce livre devenu désormais la référence francophone, appliquez l'ergonomie web sur le terrain&nbsp;! Règles et fondements théoriques de l'ergonomie (théories de la Gestalt, affordances, loi de Fitts...)&nbsp;; Méthodes de recherche utilisateur (observations, interviews, tris de cartes, tests utilisateur, personas, cartes d'expérience...)&nbsp;; Conseils pratiques pour l'architecture de l'information, les parcours utilisateur et la conception détaillée"
+  url: https://www.eyrolles.com/Informatique/Livre/ergonomie-web-et-ux-design-9782212137361/
+  importance: La référence sur le design d'expérience et le design d'interface
+  isbn: 9782212137361
+  mandatory: true
 - title: Règles Opquast
   author: Opquast
   cover: opquast.png
   summary: 240 règles pour améliorer vos sites et mieux prendre en compte vos utilisateurs
+  importance: "Un ensemble de règles universelles, utiles et documentées dont la maîtrise est validée pendant l'atelier <a href=\"/ateliers/certification-opquast\">Certification Opquast</a>"
   mandatory: true
   url: https://checklists.opquast.com/fr/assurance-qualite-web/
 - title: Coder proprement
@@ -32,22 +41,17 @@
   author: Frédéric Bordage
   cover: ecoconception-web.jpeg
   summary: "L'empreinte environnementale des sites web explose depuis quelques années, en grande partie parce qu'ils sont mal conçus : en témoigne le poids des pages web, multiplié par six entre 2010 et 2018 ! Heureusement, lorsqu'elle est appliquée au Web, la démarche d'écoconception réduit significativement ces impacts et le coût des sites, tout en augmentant leur performance et donc l'expérience et la satisfaction des utilisateurs. Très concret, ce livre vous aide à écoconcevoir votre site ou votre service en ligne, grâce à 115 bonnes pratiques à appliquer à chaque étape du cycle de vie (conception, réalisation et exploitation). Chacune d'elles a été mise au point par des experts reconnus - Breek, GreenlT.fr et les contributeurs du Collectif conception numérique responsable, notamment - et validée par des partenaires institutionnels tels que l'ADEME, des représentants des entreprises utilisatrices (Club Green IT et Cigref), et des fédérations professionnelles comme Syntec Numérique, Tech In France et l'Association des agences conseil en communication (AACC)."
+  importance: De bonnes pratiques pour construire des sites sobres en énergie
   url: https://www.eyrolles.com/Informatique/Livre/ecoconception-web-les-115-bonnes-pratiques-9782212678062/
   isbn: 9782212678062
   mandatory: true
 - title: Hats off to the screenwriters
   author: Yves Lavandier
-  summary: A tribute to the creative people who invent narratives, characters, fictitious worlds, structures and... meaning.
   cover: hotts.png
+  summary: A tribute to the creative people who invent narratives, characters, fictitious worlds, structures and... meaning.
+  importance: Une web-série passionnante sur le récit
   mandatory: true
   url: https://www.youtube.com/playlist?list=PLxex8Z5MHt2e3LFD1zn3bwmkOWQuAfXqU
-- title: Ergonomie web et UX Design
-  author: Amélie Boucher
-  cover: ergonomie-web.jpeg
-  summary: "Tout service numérique doit réussir le pari difficile de satisfaire ses utilisateurs. Mais comment bien comprendre ces derniers et se mettre à leur place&nbsp;? Comment concevoir un site si agréable et efficace qu'il donne envie d'y revenir&nbsp;? Grâce aux conseils pratiques et méthodologiques d'Amélie Boucher dans ce livre devenu désormais la référence francophone, appliquez l'ergonomie web sur le terrain&nbsp;! Règles et fondements théoriques de l'ergonomie (théories de la Gestalt, affordances, loi de Fitts...)&nbsp;; Méthodes de recherche utilisateur (observations, interviews, tris de cartes, tests utilisateur, personas, cartes d'expérience...)&nbsp;; Conseils pratiques pour l'architecture de l'information, les parcours utilisateur et la conception détaillée"
-  url: https://www.eyrolles.com/Informatique/Livre/ergonomie-web-et-ux-design-9782212137361/
-  isbn: 9782212137361
-  mandatory: true
 - title: Weaving the Web
   author: Tim Berners-Lee
   cover: weaving-the-web.jpeg
@@ -230,3 +234,10 @@
   mandatory: false
   url: https://boutique.fypeditions.com/products/pour-tout-resoudre-cliquez-ici-l-aberration-du-solutionnisme-technologique-evgeny-morozov
   isbn: 978236451157
+- title: Le sacre de l'amateur
+  author: Patrice Flichy
+  cover: sacre-amateur.gif
+  summary: "Nous vivons une révolution silencieuse&nbsp;: la montée en puissance des amateurs, ces passionnés qui ne sont ni des novices, ni des professionnels, mais de brillants touche-à-tout. Grâce à l’informatique et au web participatif, ils ont investi tous les aspects de la culture contemporaine. Foisonnantes, souvent pionnières, leurs pratiques ont bouleversé la manière de produire de la connaissance, de diffuser l’information, de créer des oeuvres, de militer. Cette démocratisation des compétences contrebalance l’élitisme de nos sociétés et prolonge la démocratisation politique et scolaire à l’oeuvre depuis deux siècles. Un nouveau règne s’annonce, qui brouille toutes les frontières&nbsp;: celui du pro-am (professionnel-amateur), expert autodidacte, citoyen-acteur, créateur à part entière."
+  isbn:  978.2.02.103144.7
+  url: http://www.repid.com/Le-sacre-de-l-amateur.html
+  mandatory: false
