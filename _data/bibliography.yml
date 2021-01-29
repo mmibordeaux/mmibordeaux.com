@@ -2,7 +2,7 @@
   author: Dominique Cardon
   cover: culture-numerique.jpeg
   summary: "L'entrée du numérique dans nos sociétés est souvent comparée aux grandes ruptures technologiques des révolutions industrielles. En réalité, c'est avec l'invention de l'imprimerie que la comparaison s’impose, car la révolu­tion digitale est avant tout d’ordre cognitif. Elle est venue insérer des connaissances et des informations dans tous les aspects de nos vies. Jusqu’aux machines, qu’elle est en train de rendre intelligentes. Si nous fabri­quons le numérique, il nous fabrique aussi. Voilà pourquoi il est indispensable que nous nous forgions une culture numérique."
-  importance: Un livre phare pour tous les étudiants MMI&nbsp;! La lecture est facile et le contenu passionnant
+  importance: Le livre phare pour tous les étudiants MMI&nbsp;! La lecture est facile et le contenu passionnant
   url: https://www.cairn.info/culture-numerique--9782724623659.htm
   isbn: 9782724623659
   mandatory: true
@@ -29,3 +29,110 @@
   importance: La sémiotique est indispensable à la compréhension de la communication, ce livre propose une entrée en matière ludique bien qu'un peu datée
   url: https://www.seuil.com/ouvrage/mythologies-roland-barthes/9782757841754
   isbn: 9782757841754
+- title: Freakonomics
+  author: Steven D. Levitt et Stephen Dubner
+  mandatory: false
+- title: Le Macroscope
+  author: Joël de Rosnay
+  mandatory: false
+- title: Comment réussir à échouer
+  author: Paul Watzlawick
+  mandatory: false
+- title: Médias & société
+  author: Francis Balle
+  mandatory: false
+- title: La dimension cachée
+  author: Edward T. Hall
+  mandatory: false
+- title: Le choc du numérique
+  author: Hervé Fischer
+  mandatory: false
+- title: Machines à communiquer
+  author: Pierre Schaeffer
+  mandatory: false
+- title: La divergence du futur
+  author: Hervé Fischer
+  mandatory: false
+- title: L'aventure sémiologique
+  author: Roland Barthes
+  mandatory: false
+- title: L’homme qui prenait sa femme pour un chapeau
+  author: Oliver Sacks
+  mandatory: false
+- title: Le choc du futur
+  author: Alvin Höffler
+  mandatory: false
+- title: Hats off to the screenwriters
+  author: Yves Lavandier
+  mandatory: true
+  url: https://www.youtube.com/playlist?list=PLxex8Z5MHt2e3LFD1zn3bwmkOWQuAfXqU
+- title: Ergonomie web et UX Design
+  author: Amélie Boucher
+  mandatory: true
+- title: La dramaturgie
+  author: Yves Lavandier
+  mandatory: false
+- title: Construire un récit
+  author: Yves Lavandier
+  mandatory: false
+- title: Secrets de scénariste
+  author: Yves Lavandier
+  mandatory: false
+  url: https://www.youtube.com/watch?v=DPdRmUmeFjw
+- title: L’anatomie du scénario
+  author: John Truby
+  mandatory: false
+- title: Story
+  author: Robert McKee
+  mandatory: false
+- title: Marks of excellence
+  author: Per Mollerup
+  mandatory: false
+  url: https://fr.phaidon.com/store/design/marks-of-excellence-9780714864747
+  isbn: 9780714864747
+- title: "Ecoconception web : les 115 bonnes pratiques"
+  author: Frédéric Bordage
+  mandatory: true
+- title: Règles Opquast
+  author: Opquast
+  mandatory: true
+  url: https://checklists.opquast.com/fr/assurance-qualite-web/
+- title: Coder proprement
+  author: Robert C. Martin
+  mandatory: true
+  importance: "Un livre indispensable pour le parcours \"<a href=\"http://localhost:4000/parcours/developpement-web-et-dispositifs-interactifs\">Développement web et dispositifs interactifs</a>\""
+- title: Progrès et innovation
+  author: Etienne Klein
+  mandatory: false
+  url: https://www.youtube.com/watch?v=KPe4wuHOlCg
+- title: Travail du clic
+  author: Antonio Casilli
+  mandatory: false
+  url: http://www.casilli.fr/tag/travail-du-clic/
+- title: Révolution ou bifurcation ?
+  author: Bernard Stiegler et Alain Damasio
+  mandatory: false
+  url: https://www.youtube.com/watch?v=Jth1eFyjt-M
+- title: L’école, le numérique et la société qui vient
+  author: Bernard Stiegler et al.
+  mandatory: false
+- title: "Réenchanter le monde: la valeur esprit contre le populisme industriel"
+  author: Bernard Stiegler
+  cover: reenchanter-le-monde.jpeg
+  summary: "Paul Valéry, pressentant la catastrophe où menait le nazisme, constatait dès 1939 une «baisse de la valeur esprit». Aurait-il pu imaginer dans quel état de déchéance généralisée tomberait l’humanité quelques décennies plus tard – là où nous en sommes ? En 1939, seulement 45 % des Français écoutent la radio, et la télévision n’existe pas encore. En ce début de XXIe siècle, les objets communicants poursuivent les temps de cerveaux disponibles où qu’ils aillent, du lever au coucher. Un capitalisme s’est imposé, que l’on dit tantôt «culturel», tantôt «cognitif», mais qui est avant tout jusqu’à présent l’organisation ravageuse d’un populisme industriel tirant parti de toutes les évolutions technologiques pour faire du siège de l’esprit un simple organe réflexe : un cerveau rabattu au rang d’ensemble de neurones, un cerveau sans conscience. En 2005, le Medef réunissait son université d’été sous la bannière du «réenchantement du monde». Ce livre propose de le prendre au mot : réenchanter le monde, c’est nécessairement revisiter et réévaluer le rôle de l’esprit dans l’organisation de l’économie."
+  mandatory: false
+  isbn: 9782081217843
+  url: https://editions.flammarion.com/reenchanter-le-monde/9782081217843
+- title: La siliconisation du monde
+  author: Eric Sadin
+  cover: la-silicolonisation-du-monde.jpeg
+  summary: "Berceau des technologies numériques (Google, Apple, Facebook, Uber, Netflix, etc.), la Silicon Valley incarne l’insolente réussite industrielle de notre époque. Cette terre des chercheurs d’or, devenue après-guerre le cœur du développement de l’appareil militaire et de l’informatique, est aujourd’hui le lieu d’une frénésie innovatrice qui entend redéfinir de part en part nos existences à des fins privées, tout en déclarant oeuvrer au bien de l’humanité. Mais la Silicon Valley ne renvoie plus seulement à un territoire, c’est aussi et avant tout un esprit, en passe de coloniser le monde. Une colonisation d’un nouveau genre, portée par de nombreux missionnaires (industriels, universités, think tanks…), et par une classe politique qui encourage l’édification de valleys sur les cinq continents, sous la forme d’écosystèmes numériques et d’incubateurs de start-up."
+  mandatory: false
+  url: https://www.lechappee.org/collections/pour-en-finir-avec/la-silicolonisation-du-monde
+- title: Pour tout résoudre, cliquez ici&nbsp;! L’aberration du solutionnisme technologique.
+  author: Evgeny Morozov
+  cover: pour-tout-resoudre.jpeg
+  summary: "Pour tout résoudre cliquez ici ! dénonce le discours employé par les entreprises et les chantres de la Silicon Valley qui veulent nous faire croire que grâce à l’Internet et aux nouvelles technologies tous les aspects de notre vie seront améliorés et la plupart des problèmes du monde disparaîtront. Evgeny morozv démontre qu’il n’y a pas une « application » comme réponse simple et immédiate à tous les enjeux sociétaux ni même à nos problèmes individuels. Il met en lumière deux concepts-clés, le solutionnisme et « l’Internet-centrisme », qui permettent de comprendre les schémas de pensée à l’œuvre derrière la révolution numérique. Cet ouvrage porte un regard neuf et salutaire sur le numérique et sur nos usages. Il nous met en garde contre la croyance en un miracle technique et en un un monde à l’efficacité sans faille où chacun serait contraint de revêtir la camisole de force numérique de la Silicon Valley."
+  mandatory: false
+  url: https://boutique.fypeditions.com/products/pour-tout-resoudre-cliquez-ici-l-aberration-du-solutionnisme-technologique-evgeny-morozov
+  isbn: 978236451157

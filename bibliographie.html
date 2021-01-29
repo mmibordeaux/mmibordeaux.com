@@ -4,31 +4,16 @@ title: Bibliographie
 
 <div class="row">
   <div class="offset-1 col-10">
-    <h2>Des ressources de qualité pour la formation MMI</h2>
+    <h2>Ressources indispensables</h2>
   </div>
 </div>
-{% for book in site.data.bibliography %}
-  <div class="row mt-5">
-    <div class="offset-1 col-10 col-md-2 mt-3">
-      <img  src="/assets/images/bibliography/{{ book.cover }}"
-            alt="{{ book.title }}"
-            width="600"
-            class="img-fluid img-full">
-    </div>
-    <div class="offset-1 col-10 offset-md-1 col-md-4 mt-3">
-      <h3 class="mt-0">{{ book.title }}</h3>
-      <p>
-        <b>{{ book.author }}</b>
-      </p>
-      <p>{{ book.summary }}</p>
-      <p class="text-muted small">ISBN {{ book.isbn}}</p>
-      <a href="{{ book.url }}" target="_blank">En savoir plus</a>
-    </div>
-    <div class="offset-1 col-10 offset-md-1 col-md-2 mt-3">
-      {% if book.mandatory %}
-        <span class="badge rounded-pill bg-primary">Indispensable</span>
-      {% endif %}
-      <blockquote>{{ book.importance }}</blockquote>
-    </div>
+{% assign books = site.data.bibliography | where: 'mandatory', true %}
+{% include books.html books=books %}
+
+<div class="row">
+  <div class="offset-1 col-10">
+    <h2>Ressources recommandées</h2>
   </div>
-{% endfor %}
+</div>
+{% assign books = site.data.bibliography | where: 'mandatory', false %}
+{% include books.html books=books %}
