@@ -10,15 +10,15 @@
 - name: AT Internet
   logo: partner-at.png
   url: https://www.atinternet.com
-- name: Gendarmerie Nationale N’TECH
-  logo: partner-ntech.png
-  url: https://www.lagendarmerierecrute.fr/metiers/unite-de-police-judiciaire/gendarme-n-tech
+# - name: Gendarmerie Nationale N’TECH
+#   logo: partner-ntech.png
+#   url: https://www.lagendarmerierecrute.fr/metiers/unite-de-police-judiciaire/gendarme-n-tech
 - name: French Tech Bordeaux
   logo: partner-french-tech.png
   url: https://www.frenchtechbordeaux.com
-- name: ISIC
-  logo: partner-isic.png
-  url: http://isic-bordeaux-montaigne.fr
+# - name: ISIC
+#   logo: partner-isic.png
+#   url: http://isic-bordeaux-montaigne.fr
 - name: MICA
   logo: partner-mica.png
   url: https://mica.u-bordeaux-montaigne.fr
