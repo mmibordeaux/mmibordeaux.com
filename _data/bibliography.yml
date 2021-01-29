@@ -1,0 +1,31 @@
+- title: Culture numérique
+  author: Dominique Cardon
+  cover: culture-numerique.jpeg
+  summary: "L'entrée du numérique dans nos sociétés est souvent comparée aux grandes ruptures technologiques des révolutions industrielles. En réalité, c'est avec l'invention de l'imprimerie que la comparaison s’impose, car la révolu­tion digitale est avant tout d’ordre cognitif. Elle est venue insérer des connaissances et des informations dans tous les aspects de nos vies. Jusqu’aux machines, qu’elle est en train de rendre intelligentes. Si nous fabri­quons le numérique, il nous fabrique aussi. Voilà pourquoi il est indispensable que nous nous forgions une culture numérique."
+  importance: Un livre phare pour tous les étudiants MMI&nbsp;! La lecture est facile et le contenu passionnant
+  url: https://www.cairn.info/culture-numerique--9782724623659.htm
+  isbn: 9782724623659
+  mandatory: true
+- title: Introduction à la pensée complexe
+  author: Edgar Morin
+  cover: introduction-a-la-pensee-complexe.jpeg
+  summary: "Nous demandons à la pensée qu'elle dissipe les brouillards et les obscurités, qu'elle mette de l'ordre et de la clarté dans le réel, qu'elle révèle les lois qui le gouvernent. Le mot de complexité, lui, ne peut qu'exprimer notre embarras, notre confusion, notre incapacité à définir de façon simple, à nommer de façon claire, à ordonner nos idées. Sa définition première ne peut fournir aucune élucidation : est complexe ce qui ne peut se résumer en un maître mot, ce qui ne peut se ramener à une loi ni se réduire à une idée simple. La complexité est un mot problème et non un mot solution. Edgar Morin propose ici un mode de pensée pour affronter la complexité du monde qui nous entoure."
+  importance: Les outils intellectuels nécessaires pour aborder le monde contemporain, dans un ouvrage très court et accessible
+  url: https://www.seuil.com/ouvrage/introduction-a-la-pensee-complexe-edgar-morin/9782757842003
+  isbn: 9782757842003
+  mandatory: true
+- title: Weaving the Web
+  author: Tim Berners-Lee
+  cover: weaving-the-web.jpeg
+  summary: "Tim Berners-Lee, the inventor of the World Wide Web, has been hailed by Time magazine as one of the 100 greatest minds of this century. This book is written to address the questions most people ask - From \"What were you thinking when you invented it?\" through \"So what do you think of it now?\" to \"Where is this all going to take us?\", this is the story. It is not a technical book. (If you want the technical details, check out the W3C web site!). It does mention a little about how technologies you may have heard of - like XML - fit in to the past, present and future, but only in the course of charting the course for the Web from the initial dream - still largely unfulfilled - to the next technical and social revolution."
+  importance: L'histoire du Web par Tim Berners-Lee
+  url: https://www.harpercollins.com/products/weaving-the-web-tim-berners-lee
+  isbn: 9780062515872
+  mandatory: false
+- title: Mythologies
+  author: Roland Barthes
+  cover: mythologies.jpeg
+  summary: "Au travers de la DS, du bifteck-frites, du strip-tease ou du plastique, les Mythologies ne sont pas seulement un formidable portrait d’une France entrant, avec les années 50, dans la culture de masse moderne, elles sont aussi l’invention d’une nouvelle critique de l’idéologie : d’une part celle-ci ne loge pas dans les grandes abstractions mais dans les objets les plus quotidiens, d’autre part elle n’appartient pas au monde des idées, elle est d’abord langage, ou plus précisément un certain système de langage que seule une sémiologie – une science des signes – est en mesure de décrypter."
+  importance: La sémiotique est indispensable à la compréhension de la communication, ce livre propose une entrée en matière ludique bien qu'un peu datée
+  url: https://www.seuil.com/ouvrage/mythologies-roland-barthes/9782757841754
+  isbn: 9782757841754
