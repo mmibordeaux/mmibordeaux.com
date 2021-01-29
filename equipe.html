@@ -1,0 +1,20 @@
+---
+title: Équipe
+---
+
+<section>
+  <div class="row">
+    {% assign persons = site.data.team | sort: 'last_name' %}
+    {% for person in persons %}
+      {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+      {% assign photo = person.first_name | append: '-' | append: person.last_name | slugify: 'latin' | append: '.jpeg' %}
+      <article class="{{ site.data.grid.classes[mod] }} mt-5">
+        <img  src="/assets/images/team/{{ photo }}"
+              alt="{{ person.first_name }} {{ person.last_name }}"
+              width="600"
+              class="img-fluid img-full">
+        <h3 class="mt-3">{{ person.first_name }} {{ person.last_name }}</h3>
+      </article>
+    {% endfor %}
+  </div>
+</section>

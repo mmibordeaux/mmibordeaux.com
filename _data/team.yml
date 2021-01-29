@@ -1,20 +1,36 @@
 - first_name: Marlène
   last_name: Dulaurans
+  permanent: true
 - first_name: Martine
   last_name: Bornerie
+  permanent: true
 - first_name: Jean-Pierre
   last_name: Salmon
+  permanent: true
 - first_name: Jacques
   last_name: Lapergue
+  permanent: true
 - first_name: Arnaud
   last_name: Levy
+  permanent: true
 - first_name: Alexis
   last_name: Benoit
+  permanent: true
 - first_name: Oscar
   last_name: Motta
+  permanent: true
 - first_name: Delphine
   last_name: Reyss
+  permanent: true
 - first_name: Béatrice
   last_name: Lemoine
+  permanent: true
 - first_name: Quentin
   last_name: Bessières
+  permanent: true
+- first_name: Claire
+  last_name: D'Hennezel
+  permanent: true
+- first_name: Éric
+  last_name: Cattelain
+  permanent: true
