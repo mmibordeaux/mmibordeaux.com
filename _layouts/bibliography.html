@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="offset-1 col-10 col-md-3 mt-5">
+    <img  src="/assets/images/bibliography/{{ page.cover }}"
+          alt="{{ page.title }}"
+          width="600"
+          class="img-fluid img-full img-thumbnail">
+  </div>
+  <div class="offset-1 col-10 offset-md-1 col-md-4 mt-5">
+    <h2 class="mt-0">{{ page.title }}</h2>
+    <h3 class="mt-2">{{ page.author }}</h3>
+    <p>{{ page.summary }}</p>
+    {% if page.isbn %}
+      <p class="text-muted small">ISBN {{ page.isbn}}</p>
+    {% endif %}
+    {% if page.url %}
+      <a href="{{ page.url }}" target="_blank">En savoir plus</a>
+    {% endif %}
+    <hr class="mt-5 mb-5">
+    {% if page.mandatory %}
+      <span class="badge rounded-pill bg-primary">Indispensable</span>
+    {% endif %}
+    <blockquote>{{ page.importance }}</blockquote>
+    {% include bibliography/into.html book=page %}
+  </div>
+</div>

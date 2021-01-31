@@ -6,6 +6,15 @@
   url: https://www.cairn.info/culture-numerique--9782724623659.htm
   isbn: 9782724623659
   mandatory: true
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/exprimer
+    - /competences/developper
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - title: Introduction à la pensée complexe
   author: Edgar Morin
   cover: introduction-a-la-pensee-complexe.jpeg
@@ -14,6 +23,13 @@
   url: https://www.seuil.com/ouvrage/introduction-a-la-pensee-complexe-edgar-morin/9782757842003
   isbn: 9782757842003
   mandatory: true
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - title: Ergonomie web et UX Design
   author: Amélie Boucher
   cover: ergonomie-web.jpeg
@@ -22,13 +38,24 @@
   importance: La référence sur le design d'expérience et le design d'interface
   isbn: 9782212137361
   mandatory: true
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
 - title: Règles Opquast
   author: Opquast
   cover: opquast.png
   summary: 240 règles pour améliorer vos sites et mieux prendre en compte vos utilisateurs
   importance: "Un ensemble de règles universelles, utiles et documentées dont la maîtrise est validée pendant l'atelier <a href=\"/ateliers/certification-opquast\">Certification Opquast</a>"
-  mandatory: true
   url: https://checklists.opquast.com/fr/assurance-qualite-web/
+  mandatory: true
+  paths:
+    - /competences/concevoir
+    - /competences/developper
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - title: Coder proprement
   author: Robert C. Martin
   cover: coder-proprement.jpg
@@ -37,6 +64,9 @@
   url: https://www.eyrolles.com/Informatique/Livre/coder-proprement-9782744025839/
   isbn: 9782744025839
   mandatory: true
+  paths:
+    - /competences/developper
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - title: "Ecoconception web : les 115 bonnes pratiques"
   author: Frédéric Bordage
   cover: ecoconception-web.jpeg
@@ -45,6 +75,11 @@
   url: https://www.eyrolles.com/Informatique/Livre/ecoconception-web-les-115-bonnes-pratiques-9782212678062/
   isbn: 9782212678062
   mandatory: true
+  paths:
+    - /competences/concevoir
+    - /competences/developper
+    - /competences/entreprendre
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - title: Hats off to the screenwriters
   author: Yves Lavandier
   cover: hotts.png
@@ -52,6 +87,9 @@
   importance: Une web-série passionnante sur le récit
   mandatory: true
   url: https://www.youtube.com/playlist?list=PLxex8Z5MHt2e3LFD1zn3bwmkOWQuAfXqU
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
 - title: Weaving the Web
   author: Tim Berners-Lee
   cover: weaving-the-web.jpeg
@@ -60,6 +98,11 @@
   url: https://www.harpercollins.com/products/weaving-the-web-tim-berners-lee
   isbn: 9780062515872
   mandatory: false
+  paths:
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/developpement-web-et-dispositifs-interactifs
 - title: Mythologies
   author: Roland Barthes
   cover: mythologies.jpeg
@@ -67,12 +110,21 @@
   importance: La sémiotique est indispensable à la compréhension de la communication, ce livre propose une entrée en matière ludique bien qu'un peu datée
   url: https://www.seuil.com/ouvrage/mythologies-roland-barthes/9782757841754
   isbn: 9782757841754
+  paths:
+    - /competences/comprendre
+    - /competences/exprimer
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
 - title: Freakonomics
   author: Steven D. Levitt et Stephen J. Dubner
   cover: freakonomics.jpg
   summary: "Quel lien entre la législation de l'avortement et la baisse de la criminalité aux États-Unis? Quelles sont les vraies motivations des agents immobiliers? Pourquoi les revendeurs de drogue vivent-ils plus longtemps chez leur mère? L'économie, vue sous cet angle, incongru en apparence, mais qui est celui de la plus sérieuse rationalité des agents, des comportements, des causes et effets, traite de sujets peu conventionnels. Elle a reçu un nom&nbsp;: freakonomics, ou «économie saugrenue». Elle jette une lumière de biais sur le désordre des événements&nbsp;; elle met à nu des a priori à prétention de scientificité irréfutable&nbsp;; elle transforme notre regard sur le monde globalisé, qui nous apparaît, pour finir, moins impénétrable et incompréhensible."
   url: http://www.folio-lesite.fr/Catalogue/Folio/Folio-actuel/Freakonomics
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Le Macroscope
   author: Joël de Rosnay
   cover: le-macroscope.jpeg
@@ -80,6 +132,11 @@
   url: https://www.seuil.com/ouvrage/le-macroscope-vers-une-vision-globale-joel-de-rosnay/9782020028189
   mandatory: false
   isbn: 9782020028189
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Comment réussir à échouer
   author: Paul Watzlawick
   cover: comment-reussir-a-echouer.jpeg
@@ -87,6 +144,11 @@
   url: https://www.seuil.com/ouvrage/comment-reussir-a-echouer-paul-watzlawick/9782757841815
   isbn: 9782757841815
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Médias & société
   author: Francis Balle
   cover: medias-et-societes.jpeg
@@ -94,6 +156,11 @@
   url: https://www.lgdj-editions.fr/livres/medias-et-societes/9782275054865
   isbn: 9782275054865
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: La dimension cachée
   author: Edward T. Hall
   cover: la-dimension-cachee.jpeg
@@ -101,6 +168,11 @@
   url: https://www.seuil.com/ouvrage/la-dimension-cachee-edward-t-hall/9782757841990
   isbn: 9782757841990
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Le choc du numérique
   author: Hervé Fischer
   cover: le-choc-du-numerique.jpeg
@@ -108,6 +180,11 @@
   url: http://www.edvlb.com/choc-numerique/herve-fischer/livre/9782896492145
   isbn: 9782896492145
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Machines à communiquer. Volume 1, Genèse des simulacres
   author: Pierre Schaeffer
   summary: "Une réflexion fondamentale sur les mass media, dont ce premier volume détaille l'histoire de leur genèse."
@@ -115,6 +192,11 @@
   url: https://www.mollat.com/livres/576982/pierre-schaeffer-machines-a-communiquer-volume-1-genese-des-simulacres
   isbn: 9782020026208
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Machines à communiquer 2. Pouvoir et communication
   author: Pierre Schaeffer
   summary: "Ce volume prend la forme d'un carnet de route pour étudier le langage et les messages des médias"
@@ -122,6 +204,11 @@
   url: https://www.mollat.com/livres/576256/pierre-schaeffer-machines-a-communiquer-volume-2-pouvoir-et-communication
   isbn: 9782020026253
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: La divergence du futur
   author: Hervé Fischer
   cover: la-divergence-du-futur.png
@@ -129,6 +216,11 @@
   url: http://www.edvlb.com/divergence-futur/herve-fischer/livre/9782896494514
   isbn: 9782896494514
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: L'aventure sémiologique
   author: Roland Barthes
   cover: l-aventure-semiologique.jpeg
@@ -136,6 +228,11 @@
   url: https://www.seuil.com/ouvrage/l-aventure-semiologique-roland-barthes/9782020089364
   isbn: 9782020089364
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/exprimer
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
 - title: L’homme qui prenait sa femme pour un chapeau
   author: Oliver Sacks
   cover: homme-chapeau.jpeg
@@ -143,6 +240,9 @@
   url: https://www.seuil.com/ouvrage/l-homme-qui-prenait-sa-femme-pour-un-chapeau-oliver-sacks/9782757840214
   isbn: 9782757840214
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Le choc du futur
   author: Alvin Toffler
   cover: choc-futur.jpeg
@@ -155,6 +255,9 @@
   url: https://lesimpressionsnouvelles.com/catalogue/la-dramaturgie/
   isbn: 978-2-87449-658-5
   mandatory: false
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
 - title: Construire un récit
   author: Yves Lavandier
   cover: construire-un-recit.jpeg
@@ -162,12 +265,18 @@
   url: https://lesimpressionsnouvelles.com/catalogue/construire-un-recit/
   isbn: 978-2-87449-699-8
   mandatory: false
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
 - title: Secrets de scénariste
   author: Yves Lavandier
   cover: secrets-de-scenariste.png
   summary: "Entretien avec Yves Lavandier"
   mandatory: false
   url: https://www.youtube.com/watch?v=DPdRmUmeFjw
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
 - title: L’anatomie du scénario
   author: John Truby
   cover: anatomie-scenario.jpeg
@@ -175,12 +284,27 @@
   url: https://www.nouveau-monde.net/catalogue/lanatomie-du-scenario/
   isbn: 9782847364903
   mandatory: false
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
 - title: Story
   author: Robert McKee
   cover: story.jpeg
   summary: "Dans cet ouvrage incontournable, enrichi à l’occasion de sa nouvelle édition, Robert McKee expose les grands principes de la narration et de l’écriture de scénario pour le cinéma et la télévision, à l’usage des scénaristes débutants ou confirmés. Alien, À travers le miroir, Casablanca, Chinatown, Les Dents de la mer, Les Rapaces, Star Wars, Thelma et Louise, Un poisson nommé Wanda… À partir d’exemples de films illustrés et analysés en profondeur, il aborde chacune des étapes de la création d’une histoire apte à toucher et captiver le public, du choix d’une intrigue à la construction des personnages, en passant par l’exposition, la dynamique du récit, etc. Découvrez les méthodes, les conseils et les recettes d’un “doctor” reconnu comme étant l’un des meilleurs professeurs d’écriture de scénario dans le monde."
   url: https://www.armand-colin.com/story-ecrire-un-scenario-pour-le-cinema-et-la-television-9782200617479
   mandatory: false
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
+- title: Narrative design
+  author: Fibre Tigre
+  cover: narrative-design.jpg
+  summary: "Une série de vidéos sur le narrative design"
+  url: https://www.youtube.com/watch?v=UkEPbRr4mA8&list=PLbe1zSFCrWr3QrmkkLR874cl1prqtvkYv
+  mandatory: false
+  paths:
+    - /competences/exprimer
+    - /parcours/creation-numerique
 - title: Marks of excellence
   author: Per Mollerup
   cover: marks-of-excellence.jpg
@@ -188,12 +312,24 @@
   mandatory: false
   url: https://fr.phaidon.com/store/design/marks-of-excellence-9780714864747
   isbn: 9780714864747
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/exprimer
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
 - title: Progrès et innovation
   author: Etienne Klein
   cover: progres-et-innovation.png
   summary: Un entretien avec Etienne Klein
   mandatory: false
   url: https://www.youtube.com/watch?v=KPe4wuHOlCg
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: En attendant les robots. Enquête sur le travail du clic
   author: Antonio A. Casilli
   cover: en-attendant-les-robots.jpeg
@@ -201,12 +337,22 @@
   url: https://www.seuil.com/ouvrage/en-attendant-les-robots-antonio-a-casilli/9782021401882
   mandatory: false
   url: http://www.casilli.fr/tag/travail-du-clic/
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Révolution ou bifurcation ?
   author: Bernard Stiegler et Alain Damasio
   cover: revolution-ou-bifurcation.png
   summary: "Le Ground Control reçoit Bernard Stiegler et Alain Damasio&nbsp;: Révolution ou bifurcation. Un événement organisé avec la librairie Charybde."
   mandatory: false
   url: https://www.youtube.com/watch?v=Jth1eFyjt-M
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: L’école, le numérique et la société qui vient
   author: Denis Kambouchner, Philippe Meirieu, Bernard Stiegler et al.
   cover: l-ecole-le-numerique-et-la-societe-qui-vient.jpeg
@@ -214,6 +360,11 @@
   mandatory: false
   url: https://www.fayard.fr/1001-nuits/lecole-le-numerique-et-la-societe-qui-vient-9782755506440
   isbn: 9782755505016
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: "Réenchanter le monde: la valeur esprit contre le populisme industriel"
   author: Bernard Stiegler
   cover: reenchanter-le-monde.jpeg
@@ -221,12 +372,22 @@
   mandatory: false
   isbn: 9782081217843
   url: https://editions.flammarion.com/reenchanter-le-monde/9782081217843
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: La siliconisation du monde
   author: Eric Sadin
   cover: la-silicolonisation-du-monde.jpeg
   summary: "Berceau des technologies numériques (Google, Apple, Facebook, Uber, Netflix, etc.), la Silicon Valley incarne l’insolente réussite industrielle de notre époque. Cette terre des chercheurs d’or, devenue après-guerre le cœur du développement de l’appareil militaire et de l’informatique, est aujourd’hui le lieu d’une frénésie innovatrice qui entend redéfinir de part en part nos existences à des fins privées, tout en déclarant oeuvrer au bien de l’humanité. Mais la Silicon Valley ne renvoie plus seulement à un territoire, c’est aussi et avant tout un esprit, en passe de coloniser le monde. Une colonisation d’un nouveau genre, portée par de nombreux missionnaires (industriels, universités, think tanks…), et par une classe politique qui encourage l’édification de valleys sur les cinq continents, sous la forme d’écosystèmes numériques et d’incubateurs de start-up."
   mandatory: false
   url: https://www.lechappee.org/collections/pour-en-finir-avec/la-silicolonisation-du-monde
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Pour tout résoudre, cliquez ici&nbsp;! L’aberration du solutionnisme technologique.
   author: Evgeny Morozov
   cover: pour-tout-resoudre.jpeg
@@ -234,6 +395,11 @@
   mandatory: false
   url: https://boutique.fypeditions.com/products/pour-tout-resoudre-cliquez-ici-l-aberration-du-solutionnisme-technologique-evgeny-morozov
   isbn: 978236451157
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Le sacre de l'amateur
   author: Patrice Flichy
   cover: sacre-amateur.gif
@@ -241,3 +407,8 @@
   isbn:  978.2.02.103144.7
   url: http://www.repid.com/Le-sacre-de-l-amateur.html
   mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience

@@ -8,7 +8,7 @@ title: Bibliographie
   </div>
 </div>
 {% assign bibliography = site.data.bibliography | where: 'mandatory', true %}
-{% include bibliography.html bibliography=bibliography %}
+{% include bibliography/list.html bibliography=bibliography %}
 
 <div class="row">
   <div class="offset-1 col-10">
@@ -16,4 +16,4 @@ title: Bibliographie
   </div>
 </div>
 {% assign bibliography = site.data.bibliography | where: 'mandatory', false %}
-{% include bibliography.html bibliography=bibliography %}
+{% include bibliography/list.html bibliography=bibliography %}

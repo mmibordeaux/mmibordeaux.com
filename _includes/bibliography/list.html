@@ -1,0 +1,31 @@
+{% for book in include.bibliography %}
+  {% assign url = book.title | slugify: 'latin' | prepend: '/bibliographie/' %}
+  <div class="row mt-5">
+    <div class="offset-1 col-10 col-md-2 mt-3">
+      <a href="{{ url }}">
+        <img  src="/assets/images/bibliography/{{ book.cover }}"
+              alt="{{ book.title }}"
+              width="600"
+              class="img-fluid img-full img-thumbnail">
+      </a>
+    </div>
+    <div class="offset-1 col-10 offset-md-1 col-md-4 mt-3">
+      <h3 class="mt-0"><a href="{{ url }}">{{ book.title }}</a></h3>
+      <p><b>{{ book.author }}</b></p>
+      <p>{{ book.summary }}</p>
+      {% if book.isbn %}
+        <p class="text-muted small">ISBN {{ book.isbn}}</p>
+      {% endif %}
+      {% if book.url %}
+        <a href="{{ book.url }}" target="_blank">En savoir plus</a>
+      {% endif %}
+    </div>
+    <div class="offset-1 col-10 offset-md-1 col-md-2 mt-3">
+      {% if book.mandatory %}
+        <span class="badge rounded-pill bg-primary">Indispensable</span>
+      {% endif %}
+      <blockquote>{{ book.importance }}</blockquote>
+      {% include bibliography/into.html book=book %}
+    </div>
+  </div>
+{% endfor %}

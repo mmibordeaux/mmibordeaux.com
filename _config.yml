@@ -1,5 +1,8 @@
 title: MMI Bordeaux
 
+plugins:
+  - jekyll-datapage-generator
+
 defaults:
   -
     scope:
@@ -45,3 +48,9 @@ collections:
   workshops:
     output: true
     permalink: /ateliers/:name
+
+page_gen:
+  - data: bibliography
+    name: title
+    template: bibliography
+    dir: bibliographie

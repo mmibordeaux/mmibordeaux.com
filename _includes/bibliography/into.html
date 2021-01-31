@@ -1,0 +1,35 @@
+{% assign important_for_competencies = '' | split: ',' %}
+{% assign important_for_paths = '' | split: ',' %}
+
+{% for path in include.book.paths %}
+  {% assign target = nil %}
+  {% for current_page in site.competencies %}
+    {% assign current_path = current_page.url %}
+    {% if current_path == path %}
+      {% assign important_for_competencies = important_for_competencies | push: current_page %}
+    {% endif %}
+  {% endfor %}
+  {% for current_page in site.paths %}
+    {% assign current_path = current_page.url %}
+    {% if current_path == path %}
+      {% assign important_for_paths = important_for_paths | push: current_page %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<div class="small text-muted">
+  {% if important_for_competencies.size > 0 %}
+    <b>Compétences concernées</b>
+    {% for p in important_for_competencies %}
+        <a href="{{ p.url }}" class="small text-muted">{{ p.title }}</a>
+    {% endfor %}
+    <br>
+    <br>
+  {% endif %}
+  {% if important_for_paths.size > 0 %}
+    <b>Parcours concernés</b>
+    {% for p in important_for_paths %}
+      <a href="{{ p.url }}" class="small text-muted">{{ p.title }}</a>
+    {% endfor %}
+  {% endif %}
+</div>
