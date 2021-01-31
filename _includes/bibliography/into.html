@@ -1,5 +1,6 @@
 {% assign important_for_competencies = '' | split: ',' %}
 {% assign important_for_paths = '' | split: ',' %}
+{% assign important_for_workshops = '' | split: ',' %}
 
 {% for path in include.book.paths %}
   {% assign target = nil %}
@@ -15,11 +16,17 @@
       {% assign important_for_paths = important_for_paths | push: current_page %}
     {% endif %}
   {% endfor %}
+  {% for current_page in site.workshops %}
+    {% assign current_path = current_page.url %}
+    {% if current_path == path %}
+      {% assign important_for_workshops = important_for_workshops | push: current_page %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
 <div class="small text-muted">
   {% if important_for_competencies.size > 0 %}
-    <b>Compétences concernées</b>
+    Ressource importante pour les compétences<br>
     {% for p in important_for_competencies %}
         <a href="{{ p.url }}" class="small text-muted">{{ p.title }}</a>
     {% endfor %}
@@ -27,8 +34,16 @@
     <br>
   {% endif %}
   {% if important_for_paths.size > 0 %}
-    <b>Parcours concernés</b>
+    Ressource importante pour les parcours<br>
     {% for p in important_for_paths %}
+      <a href="{{ p.url }}" class="small text-muted">{{ p.title }}</a>
+    {% endfor %}
+    <br>
+    <br>
+  {% endif %}
+  {% if important_for_workshops.size > 0 %}
+    Ressource importante pour les ateliers<br>
+    {% for p in important_for_workshops %}
       <a href="{{ p.url }}" class="small text-muted">{{ p.title }}</a>
     {% endfor %}
   {% endif %}
