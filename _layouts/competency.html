@@ -65,12 +65,6 @@ layout: default
       </div>
     </div>
   {% endfor %}
-  <div class="row">
-    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
-      <article class="{{ site.data.grid.classes[mod] }}">
-        <p>{{ situation.description }}</p>
-      </article>
-  </div>
 </section>
 
 {% include alumni.html %}
