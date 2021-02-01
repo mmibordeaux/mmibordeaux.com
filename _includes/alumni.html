@@ -11,19 +11,12 @@
     {% for alum in alums %}
       {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
       <article class="{{ site.data.grid.classes[mod] }} mt-5">
-        <img  src="/assets/images/alumni/{{ alum.name | slugify: 'latin' }}.jpeg"
-              alt="{{ alum.name }}"
-              width="600" height="600"
-              class="img-fluid img-full">
+        <img src="/assets/images/alumni/{{ alum.name | slugify: 'latin' }}.jpeg" alt="{{ alum.name }}" width="600" height="600" class="img-fluid img-full">
         <h3 class="mt-3">{{ alum.name }}</h3>
         <p>
           {{ alum.job }}
-          {% if alum.promotion %}
-            • MMI&nbsp;{{ alum.promotion }}
-          {% endif %}
-          {% if alum.bac %}
-            • Bac&nbsp;{{ alum.bac }}
-          {% endif %}
+          {% if alum.promotion %}• MMI&nbsp;{{ alum.promotion }}{% endif %}
+          {% if alum.bac %}• Bac&nbsp;{{ alum.bac }}{% endif %}
         </p>
         {% if alum.linkedin %}
           <a href="{{ alum.linkedin }}" class="btn" target="_blank" rel="noreferrer">LinkedIn</a>
