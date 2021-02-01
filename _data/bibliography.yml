@@ -15,6 +15,7 @@
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
     - /parcours/creation-numerique
     - /parcours/developpement-web-et-dispositifs-interactifs
+    - /ateliers/mmi-workshop
 - title: Introduction à la pensée complexe
   author: Edgar Morin
   cover: introduction-a-la-pensee-complexe.jpeg
@@ -43,6 +44,7 @@
     - /competences/concevoir
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
     - /parcours/creation-numerique
+    - /ateliers/certification-opquast
 - title: Règles Opquast
   author: Opquast
   cover: opquast.png
@@ -91,6 +93,7 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+    - /ateliers/hors-champ
 - title: Weaving the Web
   author: Tim Berners-Lee
   cover: weaving-the-web.jpeg
@@ -234,6 +237,7 @@
     - /competences/exprimer
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
     - /parcours/creation-numerique
+    - /ateliers/hors-champ
 - title: L’homme qui prenait sa femme pour un chapeau
   author: Oliver Sacks
   cover: homme-chapeau.jpeg
@@ -263,6 +267,7 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+    - /ateliers/hors-champ
 - title: Construire un récit
   author: Yves Lavandier
   cover: construire-un-recit.jpeg
@@ -273,6 +278,7 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+    - /ateliers/hors-champ
 - title: Secrets de scénariste
   author: Yves Lavandier
   cover: secrets-de-scenariste.png
@@ -282,6 +288,7 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+    - /ateliers/hors-champ
 - title: L’anatomie du scénario
   author: John Truby
   cover: anatomie-scenario.jpeg
@@ -292,6 +299,7 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+    - /ateliers/hors-champ
 - title: Story
   author: Robert McKee
   cover: story.jpeg
@@ -301,6 +309,7 @@
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
+    - /ateliers/hors-champ
 - title: Narrative design
   author: Fibre Tigre
   cover: narrative-design.jpg
