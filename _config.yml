@@ -51,6 +51,7 @@ collections:
 
 page_gen:
   - data: bibliography
-    name: title
+    name: slug
+    title: title
     template: bibliography
     dir: bibliographie

@@ -1,5 +1,5 @@
 {% for book in include.bibliography %}
-  {% assign url = book.title | slugify: 'latin' | prepend: '/bibliographie/' %}
+  {% assign url = "/bibliographie/" | append: book.slug %}
   <div class="row mt-5">
     <div class="offset-1 col-10 col-md-2 mt-3">
       <a href="{{ url }}">
