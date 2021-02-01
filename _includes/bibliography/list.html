@@ -24,7 +24,9 @@
       {% if book.mandatory %}
         <span class="badge rounded-pill bg-primary">Indispensable</span>
       {% endif %}
-      <blockquote>{{ book.importance }}</blockquote>
+      {% if book.importance %}
+        <blockquote>{{ book.importance }}</blockquote>
+      {% endif %}
       {% include bibliography/into.html book=book %}
     </div>
   </div>

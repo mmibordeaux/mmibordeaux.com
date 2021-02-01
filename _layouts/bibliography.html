@@ -23,7 +23,9 @@ layout: default
     {% if page.mandatory %}
       <span class="badge rounded-pill bg-primary">Indispensable</span>
     {% endif %}
-    <blockquote>{{ page.importance }}</blockquote>
+    {% if page.importance %}
+      <blockquote>{{ page.importance }}</blockquote>
+    {% endif %}
     {% include bibliography/into.html book=page %}
   </div>
 </div>
