@@ -6,16 +6,12 @@ layout: default
     <h2 class="mb-3">{{ page.description }}</h2>
   </div>
   <div class="offset-1 col-10 offset-md-5 col-md-6">
-    <p>
-      {{ page.text }}
-    </p>
-
+    <p>{{ page.text }}</p>
     {{ content }}
-
   </div>
 </div>
 
-{% if page.youtube_videos %}
+{% if page.youtube_videos or page.vimeo_videos %}
   <section class="mt-5">
     <div class="row">
       <div class="offset-1 col-10">
@@ -26,6 +22,9 @@ layout: default
       <div class="offset-1 col-10 offset-md-5 col-md-6">
         {% for video in page.youtube_videos %}
           {% include youtube.html id=video title="" %}
+        {% endfor %}
+        {% for video in page.vimeo_videos %}
+          {% include vimeo.html id=video title="" %}
         {% endfor %}
       </div>
     </div>
