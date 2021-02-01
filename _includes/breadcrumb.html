@@ -1,9 +1,9 @@
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 {% if crumbs.size > 0 %}
-  <div class="row">
-    <div class="offset-1 col-10">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb mb-0">
+  <nav class="breadcrumb mt-4">
+    <div class="row">
+      <div class="offset-1 col-10">
+        <ol class="p-0">
           <li class="breadcrumb-item"><a href="/">Accueil</a></li>
           {% for crumb in crumbs offset: 1 %}
             {% if forloop.last %}
@@ -13,7 +13,7 @@
             {% endif %}
           {% endfor %}
         </ol>
-      </nav>
+      </div>
     </div>
-  </div>
+  </nav>
 {% endif %}
