@@ -1,5 +1,9 @@
 $unit: 2rem
 
+body
+  position: relative
+  scroll-padding-top: 70px
+
 h1
   font-weight: bold
   margin-left: -3px
@@ -85,6 +89,16 @@ nav
     text-decoration: none
   .navbar-brand
     width: 120px
+
+#scrollspy
+  overflow-x: scroll
+  overflow-y: hidden
+  z-index: 10
+  @include media-breakpoint-down(md)
+    top: 60px
+  .nav-link
+    transition: background-color 0.25s
+    border: 1px solid #EEEEEE
 
 .navmobile
   position: fixed

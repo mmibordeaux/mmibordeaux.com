@@ -15,7 +15,19 @@ layout: default
   </div>
 </div>
 
-<section>
+<div class="row sticky-top bg-white small" id="scrollspy">
+  <div class="offset-1 col-10">
+    <ul class="nav nav-pills pt-2 pb-2 flex-nowrap">
+      <li class="nav-item"><a href="#top" class="nav-link me-2 pb-2">En&nbsp;bref...</a></li>
+      <li class="nav-item"><a href="#situations" class="nav-link me-2 pb-2">Situations</a></li>
+      <li class="nav-item"><a href="#niveaux" class="nav-link me-2 pb-2">Niveaux</a></li>
+      <li class="nav-item"><a href="#anciens" class="nav-link me-2 pb-2">Anciens&nbsp;MMI</a></li>
+      <li class="nav-item"><a href="#bibliographie" class="nav-link me-2 pb-2">Bibliographie</a></li>
+    </ul>
+  </div>
+</div>
+
+<section id="situations" class="pt-5">
   <div class="row">
     <div class="offset-1 col-10">
       <h2>Situations</h2>
@@ -30,34 +42,36 @@ layout: default
       </article>
     {% endfor %}
   </div>
+</section>
 
-  <section>
-    <div class="row">
-      <div class="offset-1 col-10">
-        <h2>Niveaux</h2>
+<section id="niveaux" class="pt-5">
+  <div class="row">
+    <div class="offset-1 col-10">
+      <h2>Niveaux</h2>
+    </div>
+  </div>
+  {% for level in page.levels %}
+    <div class="row mt-5">
+      <div class="offset-1 col-10 col-md-3">
+        <h3 class="mt-0">{{ level.title }}</h3>
+        <p class="small text-muted">{{ level.description }}</p>
+      </div>
+      <div class="offset-1 col-10 col-md-6">
+        <ul class="list-unstyled">
+          {% for learning in level.learnings %}
+            <li class="mb-2">☐ {{ learning }}</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
-    {% for level in page.levels %}
-      <div class="row mt-5">
-        <div class="offset-1 col-10 col-md-3">
-          <h3 class="mt-0">{{ level.title }}</h3>
-          <p class="small text-muted">{{ level.description }}</p>
-        </div>
-        <div class="offset-1 col-10 col-md-6">
-          <ul class="list-unstyled">
-            {% for learning in level.learnings %}
-              <li class="mb-2">☐ {{ learning }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    {% endfor %}
-    <div class="row">
-      {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
-        <article class="{{ site.data.grid.classes[mod] }}">
-          <p>{{ situation.description }}</p>
-        </article>
-    </div>
+  {% endfor %}
+  <div class="row">
+    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+      <article class="{{ site.data.grid.classes[mod] }}">
+        <p>{{ situation.description }}</p>
+      </article>
+  </div>
+</section>
 
 {% include alumni.html %}
 
