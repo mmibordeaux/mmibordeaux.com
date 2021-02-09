@@ -24,7 +24,7 @@
               {% assign modulo = index | modulo: alumni.size %}
               {% assign alum = alumni[modulo] %}
               <div class="col-2 col-md-1 {% if forloop.index0 > 35 %}d-none d-md-block{% endif %}">
-                <img src="/assets/images/alumni/{{ alum.name | slugify: 'latin' }}.jpeg" alt="{{ alum.name }}" width="600" height="600" class="img-fluid img-full">
+                <img src="/assets/images/alumni/thumbs/{{ alum.name | slugify: 'latin' }}.jpg" alt="{{ alum.name }}" width="600" height="600" class="img-fluid img-full">
               </div>
             {% endfor %}
           </div>
