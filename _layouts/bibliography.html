@@ -4,7 +4,7 @@ layout: default
 
 <div class="row">
   <div class="offset-1 col-10 col-md-3 mt-5">
-    <img  src="/assets/images/bibliography/{{ page.cover }}"
+    <img  src="/assets/images/bibliography/large/{{ book.cover | replace: 'jpeg', 'jpg' | replace: 'png', 'jpg' | replace: 'gif', 'jpg' }}"
           alt="{{ page.title }}"
           width="600"
           class="img-fluid img-full img-thumbnail">
