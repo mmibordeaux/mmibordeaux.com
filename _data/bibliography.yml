@@ -494,8 +494,28 @@
   summary: "Face à l’urgence climatique et l’empreinte environnementale conséquente du numérique, et l’impératif de repenser le numérique pour qu’il soit porteur de valeurs plus inclusives et éthiques pour les femmes et les hommes de notre société, l’INR et ses partenaires proposent un MOOC sur le numérique responsable pour permettre à toutes et à tous de s’informer et se former aux bonnes pratiques. Le MOOC Numérique Responsable est une formation de 4h30 sorti en Octobre 2020, la certification sera disponible, après avoir suivi le MOOC, en ligne en Janvier 2021. <br><br>Dès aujourd’hui, découvrez le module complet de 4h30 pour se former aux enjeux du numérique responsable. Au programme : des capsules vidéos, des quizz interactifs, des textes, des liens complémentaires, qui composent les 14 modules du MOOC à suivre."
   importance: 4h30 pour comprendre le Numérique Responsable, et préparer la Certification Numérique Responsable
   mandatory: false
-  url: ttps://institutnr.org/mooc-numerique-responsable-complet
+  url: https://institutnr.org/mooc-numerique-responsable-complet
   paths:
     - /competences/concevoir
     - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: La boîte à outils du marketing vidéo
+  slug: boite-a-outils-du-marketing-video
+  cover: boite-outils-marketing-video.jpg
+  summary: "Intégrer la vidéo dans sa stratégie marketing est indispensable: près de 80% du trafic global d'Internet est issu des vidéos. Comment intégrer la vidéo dans une stratégie marketing? Comment construire un contenu efficace? Quel matériel choisir? Comment être bien référencé pour développer son audience? Comment monétiser sa vidéo? Cette boîte à outils propose une soixantaine d'outils pour créer ses vidéos et gérer ses chaînes sur les réseaux sociaux (YouTube, Instagram, Facebook...). De nombreuses interviews et vidéos accompagnent les outils."
+  url: https://www.dunod.com/entreprise-economie/boite-outils-du-marketing-video
+  mandatory: false
+  isbn: 9782100798469
+  paths:
+    - /competences/exprimer
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: La boîte à outils du Community Manager
+  slug: boite-a-outils-du-community-manager
+  cover: boite-outils-community-manager.jpg
+  summary: "L'usage des réseaux sociaux est aujourd'hui indispensable pour toutes les entreprises.  Comment trouver de nouveaux clients via les réseaux sociaux et comment les fédérer autour de la marque?  Cette boîte à outils propose 54 outils indispensables pour recruter, gérer, animer et fidéliser sa communauté.  Entièrement mise à jour, cette 2e édition met encore plus l'accent sur les réseaux sociaux les plus importants (Facebook, Instagram, Twitter, LinkedIn) pour faciliter leur utilisation."
+  url: https://www.dunod.com/entreprise-economie/boite-outils-du-community-manager-0
+  mandatory: false
+  isbn: 9782100788217
+  paths:
+    - /competences/exprimer
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
