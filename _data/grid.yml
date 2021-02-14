@@ -1,4 +1,4 @@
 classes:
-  - offset-1 col-10 col-md-2
-  - offset-1 col-10 offset-md-2 col-md-2
-  - offset-1 col-10 offset-md-2 col-md-2
+  - offset-1 col-10 col-md-3 col-xl-2
+  - offset-1 col-10 offset-md-1 col-md-3 offset-xl-2 col-xl-2
+  - offset-1 col-10 offset-md-1 col-md-3 pe-md-4 offset-xl-2 col-xl-2 pe-xl-0
