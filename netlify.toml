@@ -24,7 +24,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src 'self';"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self';"
 [[headers]]
   for = "*.(css|js|svg|jpg|jpeg|png)"
   [headers.values]
