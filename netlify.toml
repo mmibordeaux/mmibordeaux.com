@@ -25,7 +25,7 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "default-src 'self'; script-src: https://microanalytics.io; base-uri 'self';"
-    Access-Control-Allow-Origin: "https://mmibordeaux.com"
+    Access-Control-Allow-Origin = "https://mmibordeaux.com"
 [[headers]]
   for = "*.(css|js|svg|jpg|jpeg|png)"
   [headers.values]
