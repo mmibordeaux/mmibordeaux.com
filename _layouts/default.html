@@ -30,7 +30,8 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- CSS -->
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/screen.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
     <link rel="preload" href="/assets/fonts/basiercircle-regular-webfont.woff2" as="font" crossorigin="anonymous" />
     <link rel="preload" href="/assets/fonts/basiercircle-bold-webfont.woff2" as="font" crossorigin="anonymous" />
   </head>
@@ -58,7 +59,7 @@
         </div>
         <div class="text">
           <div class="row">
-            <div class="offset-1 col-md-7 col-10">
+            <div class="offset-1 col-10 col-xl-7">
               <h1>
                 {% if page.title_html %}
                 {{ page.title_html }}

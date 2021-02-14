@@ -1,7 +1,7 @@
 {% for book in include.bibliography %}
   {% assign url = "/bibliographie/" | append: book.slug %}
   <div class="row mt-5">
-    <div class="offset-1 col-10 col-md-2 mt-3">
+    <div class="offset-1 col-10 col-md-2 col-xl-2 mt-3">
       <a href="{{ url }}">
         <img  src="/assets/images/bibliography/large/{{ book.cover | replace: 'jpeg', 'jpg' | replace: 'png', 'jpg' | replace: 'gif', 'jpg' }}"
               alt="{{ book.title }}"
@@ -20,7 +20,7 @@
         <a href="{{ book.url }}" target="_blank">En savoir plus</a>
       {% endif %}
     </div>
-    <div class="offset-1 col-10 offset-md-1 col-md-2 mt-3">
+    <div class="offset-1 col-10 offset-md-1 col-md-2 pe-xl-0 mt-3">
       {% if book.mandatory %}
         <span class="badge rounded-pill bg-primary">Indispensable</span>
       {% endif %}
