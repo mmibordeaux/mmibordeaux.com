@@ -3,14 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{page.description}}">
+
+    <!-- HTML Meta Tags -->
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.mmibordeaux.com/">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}" />
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="mmibordeaux.com">
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="/assets/images/share.png">
+
+    <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS -->
+    <link href="/assets/css/main.css" rel="stylesheet">
     <link rel="preload" href="/assets/fonts/basiercircle-regular-webfont.woff2" as="font" crossorigin="anonymous" />
     <link rel="preload" href="/assets/fonts/basiercircle-bold-webfont.woff2" as="font" crossorigin="anonymous" />
   </head>

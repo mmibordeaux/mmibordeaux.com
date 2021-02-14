@@ -1,4 +1,5 @@
 title: MMI Bordeaux
+url: https://www.mmibordeaux.com
 
 plugins:
   - jekyll-datapage-generator
