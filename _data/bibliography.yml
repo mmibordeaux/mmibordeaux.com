@@ -4,7 +4,7 @@
   cover: culture-numerique.jpeg
   summary: "L'entrée du numérique dans nos sociétés est souvent comparée aux grandes ruptures technologiques des révolutions industrielles. En réalité, c'est avec l'invention de l'imprimerie que la comparaison s’impose, car la révolu­tion digitale est avant tout d’ordre cognitif. Elle est venue insérer des connaissances et des informations dans tous les aspects de nos vies. Jusqu’aux machines, qu’elle est en train de rendre intelligentes. Si nous fabri­quons le numérique, il nous fabrique aussi. Voilà pourquoi il est indispensable que nous nous forgions une culture numérique."
   importance: Le livre phare pour tous les étudiants MMI&nbsp;! La lecture est facile et le contenu passionnant
-  url: https://www.cairn.info/culture-numerique--9782724623659.htm
+  site: https://www.cairn.info/culture-numerique--9782724623659.htm
   isbn: 9782724623659
   mandatory: true
   paths:
@@ -23,7 +23,7 @@
   cover: introduction-a-la-pensee-complexe.jpeg
   summary: "Nous demandons à la pensée qu'elle dissipe les brouillards et les obscurités, qu'elle mette de l'ordre et de la clarté dans le réel, qu'elle révèle les lois qui le gouvernent. Le mot de complexité, lui, ne peut qu'exprimer notre embarras, notre confusion, notre incapacité à définir de façon simple, à nommer de façon claire, à ordonner nos idées. Sa définition première ne peut fournir aucune élucidation : est complexe ce qui ne peut se résumer en un maître mot, ce qui ne peut se ramener à une loi ni se réduire à une idée simple. La complexité est un mot problème et non un mot solution. Edgar Morin propose ici un mode de pensée pour affronter la complexité du monde qui nous entoure."
   importance: Les outils intellectuels nécessaires pour aborder le monde contemporain, dans un ouvrage très court et accessible
-  url: https://www.seuil.com/ouvrage/introduction-a-la-pensee-complexe-edgar-morin/9782757842003
+  site: https://www.seuil.com/ouvrage/introduction-a-la-pensee-complexe-edgar-morin/9782757842003
   isbn: 9782757842003
   mandatory: true
   paths:
@@ -38,7 +38,7 @@
   author: Amélie Boucher
   cover: ergonomie-web.jpeg
   summary: "Tout service numérique doit réussir le pari difficile de satisfaire ses utilisateurs. Mais comment bien comprendre ces derniers et se mettre à leur place&nbsp;? Comment concevoir un site si agréable et efficace qu'il donne envie d'y revenir&nbsp;? Grâce aux conseils pratiques et méthodologiques d'Amélie Boucher dans ce livre devenu désormais la référence francophone, appliquez l'ergonomie web sur le terrain&nbsp;! Règles et fondements théoriques de l'ergonomie (théories de la Gestalt, affordances, loi de Fitts...)&nbsp;; Méthodes de recherche utilisateur (observations, interviews, tris de cartes, tests utilisateur, personas, cartes d'expérience...)&nbsp;; Conseils pratiques pour l'architecture de l'information, les parcours utilisateur et la conception détaillée"
-  url: https://www.eyrolles.com/Informatique/Livre/ergonomie-web-et-ux-design-9782212137361/
+  site: https://www.eyrolles.com/Informatique/Livre/ergonomie-web-et-ux-design-9782212137361/
   importance: La référence sur le design d'expérience et le design d'interface
   isbn: 9782212137361
   mandatory: true
@@ -54,7 +54,7 @@
   cover: opquast.png
   summary: 240 règles pour améliorer vos sites et mieux prendre en compte vos utilisateurs
   importance: "Un ensemble de règles universelles, utiles et documentées dont la maîtrise est validée pendant l'atelier <a href=\"/ateliers/certification-opquast\">Certification Opquast</a>"
-  url: https://checklists.opquast.com/fr/assurance-qualite-web/
+  site: https://checklists.opquast.com/fr/assurance-qualite-web/
   mandatory: true
   paths:
     - /competences/concevoir
@@ -69,7 +69,7 @@
   cover: coder-proprement.jpg
   summary: "Si un code sale peut fonctionner, il peut également remettre en question la pérennité d'une entreprise de développement de logiciels. Chaque année, du temps et des ressources sont gaspillés à cause d'un code mal écrit. Cet ouvrage&nbsp;: vous apprendra les meilleures pratiques de nettoyage du code \"à la volée\" et les valeurs d'un artisan du logiciel qui feront de vous un meilleur programmeur&nbsp;; décrit les principes, les motifs et les pratiques employés dans l'écriture d'un code propre&nbsp;; comporte plusieurs études de cas de complexité croissante (chaque étude de cas est un exercice de nettoyage&nbsp;: une base de code qui présente certains problèmes doit être convertie en une version saine et efficace)&nbsp;; contient une liste d'heuristiques et d'intuitions collectées pendant la création des études de cas. Le résultat est une base de connaissances qui décrit notre manière de penser pendant que nous écrivons, lisons et nettoyons du code. Après avoir lu ce livre, vous saurez&nbsp;: faire la différence entre bon et mauvais code&nbsp;; écrire du code propre et transformer le mauvais code en bon code&nbsp;; choisir des noms, des fonctions, des objets et des classes appropriés&nbsp;; mettre en forme le code pour une lisibilité maximale&nbsp;; implémenter le traitement des erreurs sans perturber la logique du code&nbsp;; mener des tests unitaires et pratiquer le développement piloté par les tests."
   importance: "Un livre indispensable pour le parcours \"<a href=\"http://localhost:4000/parcours/developpement-web-et-dispositifs-interactifs\">Développement web et dispositifs interactifs</a>\""
-  url: https://www.eyrolles.com/Informatique/Livre/coder-proprement-9782744025839/
+  site: https://www.eyrolles.com/Informatique/Livre/coder-proprement-9782744025839/
   isbn: 9782744025839
   mandatory: true
   paths:
@@ -81,7 +81,7 @@
   cover: ecoconception-web.jpeg
   summary: "L'empreinte environnementale des sites web explose depuis quelques années, en grande partie parce qu'ils sont mal conçus : en témoigne le poids des pages web, multiplié par six entre 2010 et 2018 ! Heureusement, lorsqu'elle est appliquée au Web, la démarche d'écoconception réduit significativement ces impacts et le coût des sites, tout en augmentant leur performance et donc l'expérience et la satisfaction des utilisateurs. Très concret, ce livre vous aide à écoconcevoir votre site ou votre service en ligne, grâce à 115 bonnes pratiques à appliquer à chaque étape du cycle de vie (conception, réalisation et exploitation). Chacune d'elles a été mise au point par des experts reconnus - Breek, GreenlT.fr et les contributeurs du Collectif conception numérique responsable, notamment - et validée par des partenaires institutionnels tels que l'ADEME, des représentants des entreprises utilisatrices (Club Green IT et Cigref), et des fédérations professionnelles comme Syntec Numérique, Tech In France et l'Association des agences conseil en communication (AACC)."
   importance: De bonnes pratiques pour construire des sites sobres en énergie
-  url: https://www.eyrolles.com/Informatique/Livre/ecoconception-web-les-115-bonnes-pratiques-9782212678062/
+  site: https://www.eyrolles.com/Informatique/Livre/ecoconception-web-les-115-bonnes-pratiques-9782212678062/
   isbn: 9782212678062
   mandatory: true
   paths:
@@ -96,7 +96,7 @@
   summary: A tribute to the creative people who invent narratives, characters, fictitious worlds, structures and... meaning.
   importance: Une web-série passionnante sur le récit
   mandatory: true
-  url: https://www.youtube.com/playlist?list=PLxex8Z5MHt2e3LFD1zn3bwmkOWQuAfXqU
+  site: https://www.youtube.com/playlist?list=PLxex8Z5MHt2e3LFD1zn3bwmkOWQuAfXqU
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
@@ -107,7 +107,7 @@
   cover: weaving-the-web.jpeg
   summary: "Tim Berners-Lee, the inventor of the World Wide Web, has been hailed by Time magazine as one of the 100 greatest minds of this century. This book is written to address the questions most people ask - From \"What were you thinking when you invented it?\" through \"So what do you think of it now?\" to \"Where is this all going to take us?\", this is the story. It is not a technical book. (If you want the technical details, check out the W3C web site!). It does mention a little about how technologies you may have heard of - like XML - fit in to the past, present and future, but only in the course of charting the course for the Web from the initial dream - still largely unfulfilled - to the next technical and social revolution."
   importance: L'histoire du Web par Tim Berners-Lee
-  url: https://www.harpercollins.com/products/weaving-the-web-tim-berners-lee
+  site: https://www.harpercollins.com/products/weaving-the-web-tim-berners-lee
   isbn: 9780062515872
   mandatory: false
   paths:
@@ -121,7 +121,7 @@
   cover: mythologies.jpeg
   summary: "Au travers de la DS, du bifteck-frites, du strip-tease ou du plastique, les Mythologies ne sont pas seulement un formidable portrait d’une France entrant, avec les années 50, dans la culture de masse moderne, elles sont aussi l’invention d’une nouvelle critique de l’idéologie : d’une part celle-ci ne loge pas dans les grandes abstractions mais dans les objets les plus quotidiens, d’autre part elle n’appartient pas au monde des idées, elle est d’abord langage, ou plus précisément un certain système de langage que seule une sémiologie – une science des signes – est en mesure de décrypter."
   importance: La sémiotique est indispensable à la compréhension de la communication, ce livre propose une entrée en matière ludique bien qu'un peu datée
-  url: https://www.seuil.com/ouvrage/mythologies-roland-barthes/9782757841754
+  site: https://www.seuil.com/ouvrage/mythologies-roland-barthes/9782757841754
   isbn: 9782757841754
   paths:
     - /competences/comprendre
@@ -133,7 +133,7 @@
   author: Steven D. Levitt et Stephen J. Dubner
   cover: freakonomics.jpg
   summary: "Quel lien entre la législation de l'avortement et la baisse de la criminalité aux États-Unis? Quelles sont les vraies motivations des agents immobiliers? Pourquoi les revendeurs de drogue vivent-ils plus longtemps chez leur mère? L'économie, vue sous cet angle, incongru en apparence, mais qui est celui de la plus sérieuse rationalité des agents, des comportements, des causes et effets, traite de sujets peu conventionnels. Elle a reçu un nom&nbsp;: freakonomics, ou «économie saugrenue». Elle jette une lumière de biais sur le désordre des événements&nbsp;; elle met à nu des a priori à prétention de scientificité irréfutable&nbsp;; elle transforme notre regard sur le monde globalisé, qui nous apparaît, pour finir, moins impénétrable et incompréhensible."
-  url: http://www.folio-lesite.fr/Catalogue/Folio/Folio-actuel/Freakonomics
+  site: http://www.folio-lesite.fr/Catalogue/Folio/Folio-actuel/Freakonomics
   mandatory: false
   paths:
     - /competences/comprendre
@@ -144,7 +144,7 @@
   author: Joël de Rosnay
   cover: le-macroscope.jpeg
   summary: "Qu’y a-t-il de commun entre l’écologie, le système économique, l’entreprise, la ville, l’organisme, la cellule&nbsp;? Rien, si on se contente de les examiner avec l’instrument habituel de la connaissance, l’approche analytique. Beaucoup, si l’on dépasse cette démarche classique pour faire ressortir les grandes règles d’organisation et de régulation de tous ces «&nbsp;systèmes&nbsp;». Pour l’auteur, l’instrument symbolique de cette nouvelle manière de voir, de comprendre et d’agir est le «&nbsp;macroscope&nbsp;», qui devrait être aussi précieux aujourd’hui aux responsables de la politique, de la science, de l’industrie, et à chacun de nous, que le sont le microscope et le télescope pour la connaissance scientifique de l’Univers."
-  url: https://www.seuil.com/ouvrage/le-macroscope-vers-une-vision-globale-joel-de-rosnay/9782020028189
+  site: https://www.seuil.com/ouvrage/le-macroscope-vers-une-vision-globale-joel-de-rosnay/9782020028189
   mandatory: false
   isbn: 9782020028189
   paths:
@@ -157,7 +157,7 @@
   author: Paul Watzlawick
   cover: comment-reussir-a-echouer.jpeg
   summary: "Dans cet ouvrage, pendant de son célèbre Faites vous-même votre malheur, Paul Watzlawick tente de comprendre et d’approfondir les recettes qui mènent infailliblement à l’échec. Pour réussir à échouer, il suffit de trouver à chaque problème l’ultrasolution, c’est-à-dire «&nbsp;une solution qui se débarrasse non seulement du problème, mais de tout le reste&nbsp;». La règle de l’ultrasolution est simple : il faut que le jeu que l’on joue avec l’autre soit toujours à somme nulle, c’est-à-dire qu’aucun ne gagne et donc le plus souvent que les deux perdent. Chacun trouvera facilement des ultrasolutions dans sa vie et celle de ses proches, en lisant le journal ou en écoutant les informations&nbsp;: leur mécanisme est ici minutieusement démonté, mis à la portée de tous."
-  url: https://www.seuil.com/ouvrage/comment-reussir-a-echouer-paul-watzlawick/9782757841815
+  site: https://www.seuil.com/ouvrage/comment-reussir-a-echouer-paul-watzlawick/9782757841815
   isbn: 9782757841815
   mandatory: false
   paths:
@@ -170,7 +170,7 @@
   author: Francis Balle
   cover: medias-et-societes.jpeg
   summary: "Pour l’information et la création, pour la communication et le divertissement, pour l’éducation et la culture, une ère nouvelle est ouverte, sous l’effet conjoint de la révolution numérique et de la globalisation de l’économie. À quelles règles les médias traditionnels ou en ligne, les plateformes numériques et les réseaux sociaux obéissent-ils&nbsp;? Quelle influence exercent-ils sur chacun de nous, sur les nations et sur la vie internationale&nbsp;? Enfin, contribuent-ils à «&nbsp;civiliser&nbsp;» le village planétaire&nbsp;? Refondue, enrichie et mise à jour, la 18e édition de Médias et Sociétés formule et illustre les grands défis liés à l’information et à la communication. En renvoyant dos à dos ceux qui déplorent la dilution de la culture et ceux qui louent les charmes des technologies, ce livre pose la question de l’information à l’ère de l’hypermodernité."
-  url: https://www.lgdj-editions.fr/livres/medias-et-societes/9782275054865
+  site: https://www.lgdj-editions.fr/livres/medias-et-societes/9782275054865
   isbn: 9782275054865
   mandatory: false
   paths:
@@ -183,7 +183,7 @@
   author: Edward T. Hall
   cover: la-dimension-cachee.jpeg
   summary: "La dimension cachée, c’est celle du territoire de tout être vivant, animal ou humain, de l’espace nécessaire à son équilibre. Mais, chez l’homme, cette dimension devient culturelle. Ainsi, chaque civilisation a sa manière de concevoir les déplacements du corps, l’agencement des maisons, les conditions de la conversation, les frontières de l’intimité. Ces études comparatives jettent une lumière neuve sur la connaissance que nous pouvons avoir d’autrui et sur le danger que nous courons, dans nos cités modernes, à ignorer cette dimension cachée&nbsp;: peut-être est-ce moins le surpeuplement qui nous menace que la perte de notre identité."
-  url: https://www.seuil.com/ouvrage/la-dimension-cachee-edward-t-hall/9782757841990
+  site: https://www.seuil.com/ouvrage/la-dimension-cachee-edward-t-hall/9782757841990
   isbn: 9782757841990
   mandatory: false
   paths:
@@ -196,7 +196,7 @@
   author: Hervé Fischer
   cover: le-choc-du-numerique.jpeg
   summary: "En ce début du troisième millénaire, l'espèce humaine doit faire face au choc numérique qui envahit tous les secteurs d'activité. Un choc qui ouvre jusqu'à la boîte de Pandore des manipulations génétiques... Nous vivons une révolution fascinante qui, trop souvent, s'accompagne d'un retour de la pensée magique. Assisterons-nous, sans esprit critique, au triomphe des cyberprimitifs? L'âge numérique sera aussi décisif pour l'aventure humaine que l'ont été l'âge du feu ou l'âge du fer. N'est-il pas urgent alors de repenser les fondements de notre humanisme pour maîtriser notre destin?"
-  url: http://www.edvlb.com/choc-numerique/herve-fischer/livre/9782896492145
+  site: http://www.edvlb.com/choc-numerique/herve-fischer/livre/9782896492145
   isbn: 9782896492145
   mandatory: false
   paths:
@@ -209,7 +209,7 @@
   author: Pierre Schaeffer
   summary: "Une réflexion fondamentale sur les mass media, dont ce premier volume détaille l'histoire de leur genèse."
   cover: machines-a-communiquer-1.jpeg
-  url: https://www.mollat.com/livres/576982/pierre-schaeffer-machines-a-communiquer-volume-1-genese-des-simulacres
+  site: https://www.mollat.com/livres/576982/pierre-schaeffer-machines-a-communiquer-volume-1-genese-des-simulacres
   isbn: 9782020026208
   mandatory: false
   paths:
@@ -222,7 +222,7 @@
   author: Pierre Schaeffer
   summary: "Ce volume prend la forme d'un carnet de route pour étudier le langage et les messages des médias"
   cover: machines-a-communiquer-2.jpeg
-  url: https://www.mollat.com/livres/576256/pierre-schaeffer-machines-a-communiquer-volume-2-pouvoir-et-communication
+  site: https://www.mollat.com/livres/576256/pierre-schaeffer-machines-a-communiquer-volume-2-pouvoir-et-communication
   isbn: 9782020026253
   mandatory: false
   paths:
@@ -235,7 +235,7 @@
   author: Hervé Fischer
   cover: la-divergence-du-futur.png
   summary: "Hervé Fischer soutient que l'histoire et la créativité de l'humanité avancent par à-coups, dans des moments de divergence qui font passer notre maîtrise et notre compréhension du monde à un autre niveau. Or il ne fait aucun doute pour lui que ce qu'il a appelé le « choc du numérique » est un moment de divergence majeur. Dans cet ouvrage, il poursuit et prolonge son exploration des bouleversements philosophiques, culturels et sociaux que traverse le monde contemporain. De Darwin à McLuhan, de Big Brother à Google, Fischer porte un regard libre et stimulant sur une étape de notre évolution qui pourrait bien s'avérer décisive."
-  url: http://www.edvlb.com/divergence-futur/herve-fischer/livre/9782896494514
+  site: http://www.edvlb.com/divergence-futur/herve-fischer/livre/9782896494514
   isbn: 9782896494514
   mandatory: false
   paths:
@@ -248,7 +248,7 @@
   author: Roland Barthes
   cover: l-aventure-semiologique.jpeg
   summary: "«&nbsp;Il y a quelques jours, une étudiante est venue me trouver&nbsp;; elle m'a demandé de préparer un doctorat sur le sujet suivant, qu'elle m'a proposé d'un air passablement ironique et cependant nullement inamical&nbsp;: critique idéologique de la Sémiologie. Il me semble qu'il y a dans cette petite “scène” tous les éléments à partir desquels on peut esquisser la situation de la sémiologie et son histoire récente&nbsp;: - On y retrouve d'abord le procès idéologique que l'on fait souvent à la sémiologie... - Ensuite l'idée que celui à qui cette étudiante s'adressait était l'un des représentants de cette sémiologie... - Enfin, l'intuition que, dans le rôle de sémiologue quasi officiel qu'elle m'attribuait, il subsistait un certain tremblement, une certaine duplicité...&nbsp;: d'où la sorte d'amicalité légère dont cette scène pleine de coquetterie intellectuelle m'a laissé le souvenir.&nbsp;»"
-  url: https://www.seuil.com/ouvrage/l-aventure-semiologique-roland-barthes/9782020089364
+  site: https://www.seuil.com/ouvrage/l-aventure-semiologique-roland-barthes/9782020089364
   isbn: 9782020089364
   mandatory: false
   paths:
@@ -262,7 +262,7 @@
   author: Oliver Sacks
   cover: homme-chapeau.jpeg
   summary: "Oliver Sacks décrit dans ce livre les affections les plus bizarres, celles qui atteignent l’homme non seulement dans son corps, mais dans sa personnalité la plus intime et dans l’image qu’il a de lui-même. Il nous fait pénétrer dans un royaume fantastique, peuplé de créatures étranges&nbsp;: un marin qui, ayant perdu la notion du temps, vit prisonnier d’un instant perpétuel&nbsp;; un homme qui se prend pour un chien et renifle l’odeur du monde&nbsp;; un musicien qui prend pour un chapeau la tête de sa femme, et bien d’autres… Tentatives aussi pour poser les jalons d’une médecine nouvelle, plus complète, qui, traitant le corps, ne refuserait pas de s’occuper de l’esprit, et même de l’âme…"
-  url: https://www.seuil.com/ouvrage/l-homme-qui-prenait-sa-femme-pour-un-chapeau-oliver-sacks/9782757840214
+  site: https://www.seuil.com/ouvrage/l-homme-qui-prenait-sa-femme-pour-un-chapeau-oliver-sacks/9782757840214
   isbn: 9782757840214
   mandatory: false
   paths:
@@ -273,7 +273,7 @@
   author: Alvin Toffler
   cover: choc-futur.jpeg
   summary: "Le terme de “Future Shock” décrit l'état psychologique des individus et des sociétés confrontés à une impression que “trop de changements se passent en trop peu de temps”. Le concept est parent de la notion de singularité technologique, apparue au début du xxie siècle. Toffler propose que la société est dans une phase de transformation structurelle énorme, dans une révolution d'une société industrielle à une “société super-industrielle”. Cette transformation déconcerte les gens, et l'accélération des progrès sociaux et technologiques les amène à se déconnecter du monde, en proie à un “stress et une désorientation destructeurs” – le future shock. Toffler poursuit en attribuant la majorité des problèmes sociaux au future shock. Dans la foulée de son exposé sur ce genre de “chocs”, il introduit le terme “surdose d'information”."
-  url: http://www.gallimard.fr/Catalogue/DENOEL/Bibliotheque-Mediations/Le-Choc-du-futur
+  site: http://www.gallimard.fr/Catalogue/DENOEL/Bibliotheque-Mediations/Le-Choc-du-futur
   mandatory: false
   paths:
     - /competences/comprendre
@@ -283,7 +283,7 @@
   author: Yves Lavandier
   cover: la-dramaturgie.jpeg
   summary: "Pendant la Seconde Guerre mondiale, dans le camp de concentration de Stutthof, une femme du nom de Flora dirigeait un théâtre de pain. Avec une partie de sa maigre ration, elle modelait de petites figurines. Le soir, en cachette dans les toilettes, elle et quelques prisonnières animaient ces acteurs de mie devant des spectateurs affamés et promis au massacre. Où qu’il soit, quelle que soit l’époque, l’être humain est entouré d’histoires et a besoin d’histoires. Cela lui est aussi vital que l’oxygène. Depuis plus de vingt ans, il existe un livre qui parle de ce besoin : La dramaturgie d’Yves Lavandier. Un livre devenu culte dans les milieux professionnels. La dramaturgie se présente comme l’équivalent contemporain de La poétique d’Aristote. C’est donc un traité sur les mécanismes du récit, leur raison d’être et leur signification. Mais alors que le philosophe n’avait que les pièces grecques pour illustrer son ouvrage, Yves Lavandier peut s’appuyer sur un répertoire beaucoup plus riche, puisant ses nombreux exemples dans le théâtre, le cinéma, la télévision, les contes et la bande dessinée."
-  url: https://lesimpressionsnouvelles.com/catalogue/la-dramaturgie/
+  site: https://lesimpressionsnouvelles.com/catalogue/la-dramaturgie/
   isbn: 978-2-87449-658-5
   mandatory: false
   paths:
@@ -295,7 +295,7 @@
   author: Yves Lavandier
   cover: construire-un-recit.jpeg
   summary: "Apprenez à concevoir les fondations de votre histoire et à maîtriser des outils aussi variés que les jalons, la structure enrichie ou les sous-intrigues thématiques. Découvrez comment créer la trajectoire interne d’un personnage et comment la théorie fractale peut être appliquée à l’écriture d’un récit. Voyez comment éviter les facilités et les deus ex machina. Maîtrisez l’installation et l’exploitation de ce puissant outil qu’est l’ironie dramatique. Trouvez des centaines d’astuces sur le sens, la comédie, le pitch, les fins, la caractérisation, les enjeux, les méchants… Dans Construire un récit, Yves Lavandier propose une méthode par étapes, claire et complète. Cette méthode découle à la fois de la compréhension des mécanismes narratifs et de l’expérience d’auteur, pédagogue et script doctor d’Yves Lavandier. Les exemples sont principalement puisés dans le répertoire dramatique : théâtre, cinéma, télévision et bande dessinée."
-  url: https://lesimpressionsnouvelles.com/catalogue/construire-un-recit/
+  site: https://lesimpressionsnouvelles.com/catalogue/construire-un-recit/
   isbn: 978-2-87449-699-8
   mandatory: false
   paths:
@@ -308,7 +308,7 @@
   cover: secrets-de-scenariste.png
   summary: "Entretien avec Yves Lavandier"
   mandatory: false
-  url: https://www.youtube.com/watch?v=DPdRmUmeFjw
+  site: https://www.youtube.com/watch?v=DPdRmUmeFjw
   paths:
     - /competences/exprimer
     - /parcours/creation-numerique
@@ -318,7 +318,7 @@
   author: John Truby
   cover: anatomie-scenario.jpeg
   summary: "Parmi les nombreux essais et manuels d’écriture, L’Anatomie du scénario s’est imposé comme une référence incontournable des scénaristes débutants et confirmés. John Truby entend mettre fin au dogme de la structure en trois actes, qu’il juge artificielle. Il préconise de développer des intrigues à multiples facettes, de soigner le réseau des personnages et leur développement moral et émotionnel, de mélanger les genres et de tordre les règles qui les régissent afin d’écrire des histoires originales. Les histoires doivent être abordées comme des organismes vivants, aussi changeants et complexes que ceux qui les imaginent. Les préceptes développés dans ce livre complètent plus qu’ils ne concurrencent ceux d’autres théoriciens de la dramaturgie. Ils exposent les bases d’une formation continue désormais aussi populaire en France qu’aux États-Unis où elle a été créée il y a trente ans. Cette « grammaire de la dramaturgie » est issue d’un long travail de décorticage de centaines de films, pièces, nouvelles et romans, allant de James Joyce à La Guerre des étoiles en passant par Tootsie. Concret, pratique sans être simpliste, L’Anatomie du scénario s’impose comme une bible du scénariste."
-  url: https://www.nouveau-monde.net/catalogue/lanatomie-du-scenario/
+  site: https://www.nouveau-monde.net/catalogue/lanatomie-du-scenario/
   isbn: 9782847364903
   mandatory: false
   paths:
@@ -330,7 +330,7 @@
   author: Robert McKee
   cover: story.jpeg
   summary: "Dans cet ouvrage incontournable, enrichi à l’occasion de sa nouvelle édition, Robert McKee expose les grands principes de la narration et de l’écriture de scénario pour le cinéma et la télévision, à l’usage des scénaristes débutants ou confirmés. Alien, À travers le miroir, Casablanca, Chinatown, Les Dents de la mer, Les Rapaces, Star Wars, Thelma et Louise, Un poisson nommé Wanda… À partir d’exemples de films illustrés et analysés en profondeur, il aborde chacune des étapes de la création d’une histoire apte à toucher et captiver le public, du choix d’une intrigue à la construction des personnages, en passant par l’exposition, la dynamique du récit, etc. Découvrez les méthodes, les conseils et les recettes d’un “doctor” reconnu comme étant l’un des meilleurs professeurs d’écriture de scénario dans le monde."
-  url: https://www.armand-colin.com/story-ecrire-un-scenario-pour-le-cinema-et-la-television-9782200617479
+  site: https://www.armand-colin.com/story-ecrire-un-scenario-pour-le-cinema-et-la-television-9782200617479
   mandatory: false
   paths:
     - /competences/exprimer
@@ -341,7 +341,7 @@
   author: Fibre Tigre
   cover: narrative-design.jpg
   summary: "Une série de vidéos sur le narrative design"
-  url: https://www.youtube.com/watch?v=UkEPbRr4mA8&list=PLbe1zSFCrWr3QrmkkLR874cl1prqtvkYv
+  site: https://www.youtube.com/watch?v=UkEPbRr4mA8&list=PLbe1zSFCrWr3QrmkkLR874cl1prqtvkYv
   mandatory: false
   paths:
     - /competences/exprimer
@@ -352,7 +352,7 @@
   cover: marks-of-excellence.jpg
   summary: "Marks of Excellence (first published in 1997) offers a rigorous exploration of the trademark: its history, development, style, classification and relevance in today's world. The book includes extensive discussion of its origins in heraldry, monograms, owner's marks and certificates of origins, and also contains a comprehensive taxonomy of trademarks and an alphabetical index of trademark themes. The text covers every aspect of the trademark, its history, development, style, classification and relevance in today's world. A brief history is given of the origins of the trademark in heraldry, monograms, owner's marks and certificates of origin. The proceeding chapters explore corporate identity and communication design with an emphasis on sign theory. The core of the book is a comprehensive classification of trademarks covering name marks, abbreviations and all kinds of picture marks. This is followed by an alphabetical index of trademark themes from animals to word puzzles. The index is illustrated by a selection of the world's best trademarks - the marks of excellence from which this book takes its name. The final section of the book covers the development of trademarks over time and across the boundaries of language and space. An invaluable reference tool for design students and graphic designers, the original book is packed with nearly 600 illustrations of both rare and instantly recognizable trademarks, logos, signs, advertisements, and the images that inspired them. This revised and expanded edition will include at least 500 new images and 80 pages of new material, bringing this successful title right up to date."
   mandatory: false
-  url: https://fr.phaidon.com/store/design/marks-of-excellence-9780714864747
+  site: https://fr.phaidon.com/store/design/marks-of-excellence-9780714864747
   isbn: 9780714864747
   paths:
     - /competences/comprendre
@@ -367,7 +367,7 @@
   cover: progres-et-innovation.png
   summary: Un entretien avec Etienne Klein
   mandatory: false
-  url: https://www.youtube.com/watch?v=KPe4wuHOlCg
+  site: https://www.youtube.com/watch?v=KPe4wuHOlCg
   paths:
     - /competences/comprendre
     - /competences/concevoir
@@ -378,9 +378,9 @@
   author: Antonio A. Casilli
   cover: en-attendant-les-robots.jpeg
   summary: "L’essor des intelligences artificielles réactualise une prophétie lancinante : avec le remplacement des êtres humains par les machines, le travail serait appelé à disparaître. Si certains s’en alarment, d’autres voient dans la « disruption numérique » une promesse d’émancipation fondée sur la participation, l’ouverture et le partage.Les coulisses de ce théâtre de marionnettes (sans fils) donnent cependant à voir un tout autre spectacle. Celui des usagers qui alimentent gratuitement les réseaux sociaux de données personnelles et de contenus créatifs monnayés par les géants du Web. Celui des prestataires des start-ups de l’économie collaborative, dont le quotidien connecté consiste moins à conduire des véhicules ou à assister des personnes qu’à produire des flux d’informations sur leur smartphone. Celui des microtravailleurs rivés à leurs écrans qui, à domicile ou depuis des « fermes à clic », propulsent la viralité des marques, filtrent les images pornographiques et violentes ou saisissent à la chaîne des fragments de textes pour faire fonctionner des logiciels de traduction automatique. En dissipant l’illusion de l’automation intelligente, Antonio Casilli fait apparaître la réalité du digital labor&nbsp;: l’exploitation des petites mains de l’intelligence « artificielle », ces myriades de tâcherons du clic soumis au management algorithmique de plateformes en passe de reconfigurer et de précariser le travail humain."
-  url: https://www.seuil.com/ouvrage/en-attendant-les-robots-antonio-a-casilli/9782021401882
+  site: https://www.seuil.com/ouvrage/en-attendant-les-robots-antonio-a-casilli/9782021401882
   mandatory: false
-  url: http://www.casilli.fr/tag/travail-du-clic/
+  site: http://www.casilli.fr/tag/travail-du-clic/
   paths:
     - /competences/comprendre
     - /competences/concevoir
@@ -392,7 +392,7 @@
   cover: revolution-ou-bifurcation.png
   summary: "Le Ground Control reçoit Bernard Stiegler et Alain Damasio&nbsp;: Révolution ou bifurcation. Un événement organisé avec la librairie Charybde."
   mandatory: false
-  url: https://www.youtube.com/watch?v=Jth1eFyjt-M
+  site: https://www.youtube.com/watch?v=Jth1eFyjt-M
   paths:
     - /competences/comprendre
     - /competences/concevoir
@@ -404,7 +404,7 @@
   cover: l-ecole-le-numerique-et-la-societe-qui-vient.jpeg
   summary: "Que reste-t-il de la querelle scolaire et du vieux clivage entre « pédagogues » et « républicains » ? Partis de convictions très divergentes, Denis Kambouchner et Philippe Meirieu font aujourd'hui, avec Bernard Stiegler, le constat que les termes dans lesquels se posa cette querelle ont perdu de leur acuité dans le contexte de la vaste mutation engendrée par les nouvelles technologies. Ces nouvelles technologies créent les conditions d'une démocratisation inespérée de l'accès au savoir ; mais en même temps, associées à un consumérisme effréné et à un marketing intrusif, elles apparaissent comme les vecteurs d'un système toujours plus perfectionné de captation des esprits. Une telle évolution met à mal les équilibres fondamentaux de l'éducation scolaire. Surtout, l'école n'est pas armée pour penser cette mutation : ni pour remédier à ses effets les plus perturbants, ni pour s'assurer la maîtrise et l'usage effectif des potentialités qui lui sont liées. Il y a urgence. Plus que jamais les esprits ont besoin d’une solide formation du jugement, de méthodes et de repères que seule l’école peut, à l’échelle d’une société, enseigner. Au fil de leur conversation, les trois interlocuteurs s’entendent pleinement sur l’importance de réaffirmer une haute ambition pour l’école."
   mandatory: false
-  url: https://www.fayard.fr/1001-nuits/lecole-le-numerique-et-la-societe-qui-vient-9782755506440
+  site: https://www.fayard.fr/1001-nuits/lecole-le-numerique-et-la-societe-qui-vient-9782755506440
   isbn: 9782755505016
   paths:
     - /competences/comprendre
@@ -418,7 +418,7 @@
   summary: "Paul Valéry, pressentant la catastrophe où menait le nazisme, constatait dès 1939 une «baisse de la valeur esprit». Aurait-il pu imaginer dans quel état de déchéance généralisée tomberait l’humanité quelques décennies plus tard – là où nous en sommes ? En 1939, seulement 45 % des Français écoutent la radio, et la télévision n’existe pas encore. En ce début de XXIe siècle, les objets communicants poursuivent les temps de cerveaux disponibles où qu’ils aillent, du lever au coucher. Un capitalisme s’est imposé, que l’on dit tantôt «culturel», tantôt «cognitif», mais qui est avant tout jusqu’à présent l’organisation ravageuse d’un populisme industriel tirant parti de toutes les évolutions technologiques pour faire du siège de l’esprit un simple organe réflexe : un cerveau rabattu au rang d’ensemble de neurones, un cerveau sans conscience. En 2005, le Medef réunissait son université d’été sous la bannière du «réenchantement du monde». Ce livre propose de le prendre au mot : réenchanter le monde, c’est nécessairement revisiter et réévaluer le rôle de l’esprit dans l’organisation de l’économie."
   mandatory: false
   isbn: 9782081217843
-  url: https://editions.flammarion.com/reenchanter-le-monde/9782081217843
+  site: https://editions.flammarion.com/reenchanter-le-monde/9782081217843
   paths:
     - /competences/comprendre
     - /competences/concevoir
@@ -430,7 +430,7 @@
   cover: la-silicolonisation-du-monde.jpeg
   summary: "Berceau des technologies numériques (Google, Apple, Facebook, Uber, Netflix, etc.), la Silicon Valley incarne l’insolente réussite industrielle de notre époque. Cette terre des chercheurs d’or, devenue après-guerre le cœur du développement de l’appareil militaire et de l’informatique, est aujourd’hui le lieu d’une frénésie innovatrice qui entend redéfinir de part en part nos existences à des fins privées, tout en déclarant oeuvrer au bien de l’humanité. Mais la Silicon Valley ne renvoie plus seulement à un territoire, c’est aussi et avant tout un esprit, en passe de coloniser le monde. Une colonisation d’un nouveau genre, portée par de nombreux missionnaires (industriels, universités, think tanks…), et par une classe politique qui encourage l’édification de valleys sur les cinq continents, sous la forme d’écosystèmes numériques et d’incubateurs de start-up."
   mandatory: false
-  url: https://www.lechappee.org/collections/pour-en-finir-avec/la-silicolonisation-du-monde
+  site: https://www.lechappee.org/collections/pour-en-finir-avec/la-silicolonisation-du-monde
   paths:
     - /competences/comprendre
     - /competences/concevoir
@@ -442,7 +442,7 @@
   cover: pour-tout-resoudre.jpeg
   summary: "Pour tout résoudre cliquez ici ! dénonce le discours employé par les entreprises et les chantres de la Silicon Valley qui veulent nous faire croire que grâce à l’Internet et aux nouvelles technologies tous les aspects de notre vie seront améliorés et la plupart des problèmes du monde disparaîtront. Evgeny morozv démontre qu’il n’y a pas une « application » comme réponse simple et immédiate à tous les enjeux sociétaux ni même à nos problèmes individuels. Il met en lumière deux concepts-clés, le solutionnisme et « l’Internet-centrisme », qui permettent de comprendre les schémas de pensée à l’œuvre derrière la révolution numérique. Cet ouvrage porte un regard neuf et salutaire sur le numérique et sur nos usages. Il nous met en garde contre la croyance en un miracle technique et en un un monde à l’efficacité sans faille où chacun serait contraint de revêtir la camisole de force numérique de la Silicon Valley."
   mandatory: false
-  url: https://boutique.fypeditions.com/products/pour-tout-resoudre-cliquez-ici-l-aberration-du-solutionnisme-technologique-evgeny-morozov
+  site: https://boutique.fypeditions.com/products/pour-tout-resoudre-cliquez-ici-l-aberration-du-solutionnisme-technologique-evgeny-morozov
   isbn: 978236451157
   paths:
     - /competences/comprendre
@@ -455,7 +455,7 @@
   cover: sacre-amateur.gif
   summary: "Nous vivons une révolution silencieuse&nbsp;: la montée en puissance des amateurs, ces passionnés qui ne sont ni des novices, ni des professionnels, mais de brillants touche-à-tout. Grâce à l’informatique et au web participatif, ils ont investi tous les aspects de la culture contemporaine. Foisonnantes, souvent pionnières, leurs pratiques ont bouleversé la manière de produire de la connaissance, de diffuser l’information, de créer des oeuvres, de militer. Cette démocratisation des compétences contrebalance l’élitisme de nos sociétés et prolonge la démocratisation politique et scolaire à l’oeuvre depuis deux siècles. Un nouveau règne s’annonce, qui brouille toutes les frontières&nbsp;: celui du pro-am (professionnel-amateur), expert autodidacte, citoyen-acteur, créateur à part entière."
   isbn:  978.2.02.103144.7
-  url: http://www.repid.com/Le-sacre-de-l-amateur.html
+  site: http://www.repid.com/Le-sacre-de-l-amateur.html
   mandatory: false
   paths:
     - /competences/comprendre
@@ -467,7 +467,7 @@
   author: Rob Ford
   cover: web_design_the_evolution_of_the_digital_era_mi_int_3d_04690_1910241815_id_1260884.jpg
   summary: "Depuis ses débuts en 1990, Internet a produit plus d’un milliard de pages, qui n’ont pas toujours ressemblé à des interfaces impeccables. Au fil de ce panorama visuel et historique, retrouvez la trace des tout premiers exemples de ce qui est aujourd’hui acquis, du premier site à utiliser le son ambiophonique à la première fonction “télécharge ta face” en passant par l’ancêtre de YouTube. Accompagné de fiches informatives par année, de connaissances agrégées par Google et de commentaires des créateurs de ces sites."
-  url: https://www.taschen.com/pages/fr/catalogue/graphic_design/all/04690/facts.web_design_the_evolution_of_the_digital_world_1990today.htm
+  site: https://www.taschen.com/pages/fr/catalogue/graphic_design/all/04690/facts.web_design_the_evolution_of_the_digital_world_1990today.htm
   importance: Culture générale du web, webdesign & design d'interface (UI)
   mandatory: false
   isbn: 978-3-8365-7267-5
@@ -482,7 +482,7 @@
   summary: "Face à l’urgence climatique et l’empreinte environnementale conséquente du numérique, et l’impératif de repenser le numérique pour qu’il soit porteur de valeurs plus inclusives et éthiques pour les femmes et les hommes de notre société, l’INR et ses partenaires proposent un MOOC sur le numérique responsable pour permettre à toutes et à tous de s’informer et se former aux bonnes pratiques. Le MOOC Numérique Responsable est un projet de formation de 5h qui sortira en Octobre 2020. <br><br>Dès aujourd’hui, découvrez le module de sensibilisation d’une demie-heure pour se former aux enjeux du numérique responsable. 30min de formation pour comprendre ce qu’est le numérique responsable. Au programme: de courtes capsules vidéos, des textes et des ressources complémentaires."
   importance: En 30 minutes, l'essentiel pour comprendre les enjeux du Numérique Responsable
   mandatory: true
-  url: https://institutnr.org/mooc-sensibilisation-numerique-responsable
+  site: https://institutnr.org/mooc-sensibilisation-numerique-responsable
   paths:
     - /competences/concevoir
     - /competences/entreprendre
@@ -494,7 +494,7 @@
   summary: "Face à l’urgence climatique et l’empreinte environnementale conséquente du numérique, et l’impératif de repenser le numérique pour qu’il soit porteur de valeurs plus inclusives et éthiques pour les femmes et les hommes de notre société, l’INR et ses partenaires proposent un MOOC sur le numérique responsable pour permettre à toutes et à tous de s’informer et se former aux bonnes pratiques. Le MOOC Numérique Responsable est une formation de 4h30 sorti en Octobre 2020, la certification sera disponible, après avoir suivi le MOOC, en ligne en Janvier 2021. <br><br>Dès aujourd’hui, découvrez le module complet de 4h30 pour se former aux enjeux du numérique responsable. Au programme : des capsules vidéos, des quizz interactifs, des textes, des liens complémentaires, qui composent les 14 modules du MOOC à suivre."
   importance: 4h30 pour comprendre le Numérique Responsable, et préparer la Certification Numérique Responsable
   mandatory: false
-  url: https://institutnr.org/mooc-numerique-responsable-complet
+  site: https://institutnr.org/mooc-numerique-responsable-complet
   paths:
     - /competences/concevoir
     - /competences/entreprendre
@@ -503,7 +503,7 @@
   slug: boite-a-outils-du-marketing-video
   cover: boite-outils-marketing-video.jpg
   summary: "Intégrer la vidéo dans sa stratégie marketing est indispensable: près de 80% du trafic global d'Internet est issu des vidéos. Comment intégrer la vidéo dans une stratégie marketing? Comment construire un contenu efficace? Quel matériel choisir? Comment être bien référencé pour développer son audience? Comment monétiser sa vidéo? Cette boîte à outils propose une soixantaine d'outils pour créer ses vidéos et gérer ses chaînes sur les réseaux sociaux (YouTube, Instagram, Facebook...). De nombreuses interviews et vidéos accompagnent les outils."
-  url: https://www.dunod.com/entreprise-economie/boite-outils-du-marketing-video
+  site: https://www.dunod.com/entreprise-economie/boite-outils-du-marketing-video
   mandatory: false
   isbn: 9782100798469
   paths:
@@ -513,7 +513,7 @@
   slug: boite-a-outils-du-community-manager
   cover: boite-outils-community-manager.jpg
   summary: "L'usage des réseaux sociaux est aujourd'hui indispensable pour toutes les entreprises.  Comment trouver de nouveaux clients via les réseaux sociaux et comment les fédérer autour de la marque?  Cette boîte à outils propose 54 outils indispensables pour recruter, gérer, animer et fidéliser sa communauté.  Entièrement mise à jour, cette 2e édition met encore plus l'accent sur les réseaux sociaux les plus importants (Facebook, Instagram, Twitter, LinkedIn) pour faciliter leur utilisation."
-  url: https://www.dunod.com/entreprise-economie/boite-outils-du-community-manager-0
+  site: https://www.dunod.com/entreprise-economie/boite-outils-du-community-manager-0
   mandatory: false
   isbn: 9782100788217
   paths:
