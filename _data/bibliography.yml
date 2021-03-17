@@ -501,7 +501,8 @@
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: La boîte à outils du marketing vidéo
   slug: boite-a-outils-du-marketing-video
-  cover: boite-outils-marketing-video.jpg
+  author: Thomas Gasio
+  cover: boite-outils-marketing-video.jpeg
   summary: "Intégrer la vidéo dans sa stratégie marketing est indispensable: près de 80% du trafic global d'Internet est issu des vidéos. Comment intégrer la vidéo dans une stratégie marketing? Comment construire un contenu efficace? Quel matériel choisir? Comment être bien référencé pour développer son audience? Comment monétiser sa vidéo? Cette boîte à outils propose une soixantaine d'outils pour créer ses vidéos et gérer ses chaînes sur les réseaux sociaux (YouTube, Instagram, Facebook...). De nombreuses interviews et vidéos accompagnent les outils."
   site: https://www.dunod.com/entreprise-economie/boite-outils-du-marketing-video
   mandatory: false
@@ -511,11 +512,58 @@
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: La boîte à outils du Community Manager
   slug: boite-a-outils-du-community-manager
-  cover: boite-outils-community-manager.jpg
+  author: Clément Pellerin
+  cover: boite-outils-community-manager.jpeg
   summary: "L'usage des réseaux sociaux est aujourd'hui indispensable pour toutes les entreprises.  Comment trouver de nouveaux clients via les réseaux sociaux et comment les fédérer autour de la marque?  Cette boîte à outils propose 54 outils indispensables pour recruter, gérer, animer et fidéliser sa communauté.  Entièrement mise à jour, cette 2e édition met encore plus l'accent sur les réseaux sociaux les plus importants (Facebook, Instagram, Twitter, LinkedIn) pour faciliter leur utilisation."
   site: https://www.dunod.com/entreprise-economie/boite-outils-du-community-manager-0
   mandatory: false
   isbn: 9782100788217
   paths:
     - /competences/exprimer
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: Sociologie du numérique
+  slug: sociologie-du-numerique
+  author: Dominique Boullier
+  cover: sociologie-du-numerique.jpeg
+  summary: "Le numérique au sens large (informatique, réseaux, médias, Internet) a envahi l’ensemble des activités humaines, des plus personnelles aux plus collectives, et a profondément modifié notre rapport aux autres, à l’espace, au temps. Porteur d’innovations permanentes, il fascine et effraie tout autant, et fait l’objet de multiples débats, analyses, controverses. Cet ouvrage de référence en présente les cadrages théoriques et les concepts clés ainsi qu’une synthèse critique des travaux réalisés sur le sujet en sciences sociales. Cette nouvelle édition fait le point sur les évolutions récentes (le Machine Learning, la blockchain, le RGPD) et sur les enjeux contemporains (appels à la régulation, rôle croissant de la Chine, inflation des fakes news). Elle dresse un panorama des dernières avancées dans les domaines de la recherche : sociologie des algorithmes, des propagations et des makers ; économie de l’attention, plateformisation, économie comportementale à base de traces et de digital labor ; analyse politique du numérique dans la justice, la sécurité, le militaire ou la santé ; ou encore nouvelles méthodes des « humanités numériques »."
+  site: https://www.armand-colin.com/sociologie-du-numerique-2e-ed-9782200624750
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: Communiquer à l’ère numérique. Regards croisés sur la sociologie des usages
+  slug: communiquer-a-lere-numerique
+  author: Julie Denouël et Fabien Granjon
+  cover: communiquer-a-lere-numerique.jpeg
+  summary: "Au sein des sociétés capitalistes avancées, la question de l’appropriation des technologies numériques d’information et de communication (TNIC) s’impose comme une problématique centrale. Si le facteur technique n’est pas une préoccupation majeure de la raison sociologique contemporaine, les sciences sociales peuvent néanmoins se prévaloir d’un nombre très important de travaux conduits ces trente dernières années sur les usages de l’informatique connectée, tant dans la sphère domestique que dans les espaces professionnels. Réunissant les contributions de dix chercheurs réputés, cet ouvrage n’a pas pour objectif de proposer une dissertation théorique mais, dans une démarche résolument polyphonique, d’ouvrir un ensemble de travaux pertinents et originaux."
+  site: https://www.pressesdesmines.com/produit/communiquer-a-l-ere-numerique/
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: La sociologie des usages, continuités et transformations
+  slug: la-sociologie-des-usages-continuites-et-transformations
+  author: Geneviève Vidal
+  summary: "Interroger la sociologie des usages, dans un contexte d'intensification des technologies de l'information et de la communication et de banalisation des études d'usages, souvent réduites à l'accumulation de données chiffrées ou qualitatives, malgré la richesse des travaux, tel est l'objectif de cet ouvrage. Ce champ de recherche a produit des connaissances tant sur l'appropriation sociale des innovations techniques, sur les détournements, contournements, que sur l'insertion de nouveaux usages dans les pratiques préexistantes et leurs significations. L'ambition de l'ouvrage, qui rassemble des chercheurs auscultant les enjeux scientifiques, politiques, économiques et les pratiques numériques, est de poser les éléments d'un débat sur la recherche contemporaine sur les usages. Une mise à distance de la notion d'usage, une réflexion critique relative aux méthodologies et à l'approche socio-politique sont ainsi engagées. Grâce aux regards des huit contributeurs, Dominique Carré, Éric George, Guillaume Latzko-Toth, Françoise Massit-Folléa, Florence Millerand, Christian Papilloud, Françoise Paquienséguy, Geneviève Vidal, l'invitation à poursuivre le débat sur la sociologie des usages, en termes de continuités et de transformations, ouvre sur des perspectives de recherche sur les usages des TIC."
+  cover: la-sociologie-des-usages-continuites-et-transformations.jpeg
+  site: https://www.lavoisier.fr/livre/informatique/la-sociologie-des-usages/vidal/descriptif-9782746225770
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: L'entretien compréhensif
+  slug: l-entretien-comprehensif
+  cover: l-entretien-comprehensif.jpeg
+  author: Jean-Claude Kaufmann
+  summary: "Ce manuel présente de façon concrète les différentes étapes permettant de mener à bien un entretien compréhensif et d’élaborer un cadre d’interprétation. La démarche consiste à s’appuyer sur les catégories de pensée des informateurs, tant pour conduire les entretiens de façon efficace que pour formuler des hypothèses. Elle peut s’appliquer au-delà de l’entretien en face à face, dans les nouveaux espaces d’enquête offerts par Internet. Jusqu’où et comment est-il possible de théoriser en partant du terrain ?"
+  site: https://www.armand-colin.com/lentretien-comprehensif-4e-ed-9782200613976
+  mandatory: false
+  paths:
+    - /competences/comprendre
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
