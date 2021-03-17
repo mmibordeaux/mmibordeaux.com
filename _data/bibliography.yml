@@ -101,6 +101,28 @@
     - /competences/exprimer
     - /parcours/creation-numerique
     - /ateliers/hors-champ
+- title: Business Model, Nouvelle Génération
+  slug: business-model-nouvelle-generation
+  cover: business-model-nouvelle-generation.jpeg
+  author: Alexander Osterwalder, Yves Pigneur
+  summary: "Conciliant un esprit ludique et une méthode résolument pédagogique, ce guide pratique et stimulant aidera les visionnaires, révolutionnaires et challengers à défier les modèles économiques dépassés et concevoir les entreprises de demain. Comment se positionner dans un paysage extrêmement concurrentiel ? Comment transformer ses idées en modèles économiques révolutionnaires ? Comment dépasser les schémas traditionnels ou leur donner une nouvelle jeunesse ? Les modèles économiques disruptifs sont emblématiques de notre génération. Pourtant, on les comprend encore mal, alors même qu'ils transforment le paysage concurrentiel de nombreux secteurs. Business Model Nouvelle Génération apporte des outils efficaces, simples et éprouvés pour analyser, élaborer et mettre en oeuvre des modèles économiques performants. Conciliant un esprit ludique et une méthode résolument pédagogique, Business Model Nouvelle Génération est un guide pratique et stimulant pour tous ceux qui souhaitent améliorer ou créer leur modèle économique. Une conception visuelle forte pour des ateliers pratiques. Il permet d'exposer de façon claire et accessible des concepts complexes, et de vous initier aux techniques d'innovation utilisées dans le monde entier par les plus grandes entreprises. Les modèles économiques d'Apple, Swatch, Nintendo, Nespresso, Lego, Metro, Google ou encore Amazon.com y sont étudiés et mis en perspective afi n de nourrir votre réflexion. Des exercices et des ateliers viennent appuyer les exposés théoriques, permettant une mise en pratique immédiate. Un livre pour ceux qui veulent prendre de l'avance. Il s'adresse à tous ceux qui sont prêts à adopter des modèles innovants pour créer de la valeur : dirigeants, consultants, entrepreneurs, managers…"
+  site: https://www.pearson.fr/fr/book/?GCOI=27440100730760
+  mandatory: true
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: Value proposition Design
+  slug: value-proposition-design
+  cover: value-proposition-design.jpeg
+  author: Alexander Osterwalder, Yves Pigneur, Greg Bernarda, Alan Smith
+  summary: "Suite attendue du bestseller Business Model Nouvelle Génération, ce livre est indispensable pour proposer une offre de produits et services en phase avec les attentes des clients. Un ouvrage indispensable pour proposer une offre de produits et services en totale adéquation avec les attentes des clients. Cet ouvrage a pour objectif d'expliquer comment utiliser la matrice de proposition de valeur, un outil indispensable destiné à concevoir, tester, élaborer et faire évoluer des produits et services pour qu’ils répondent au mieux aux attentes des clients. Il propose de travailler sur des éléments concrets qui participent véritablement à la création de valeur pour les clients : l’organisation de réunions produit et la mise en place d’alignements d’équipe fructueux. Il permet ainsi de comprendre l’importance de la création de valeur, de tirer profit de l’expérience et des talents d’une équipe, de ne pas perdre de temps avec des idées sans avenir et d’éclairer la voie qui conduit à la création de produits et services qui satisfont les clients. Ce livre est la suite de Business Model, Nouvelle génération, des mêmes auteurs et devenu un best-seller international traduit en plus de 30 langues : il reprend le format, l’esprit résolument pratique et la présentation graphique originale qui ont fait son succès. Cette nouvelle matrice complète et s’intègre parfaitement à celle du modèle économique, présentée dans Business Model, Nouvelle génération, afin que le lecteur développe des propositions de valeur toujours plus profitables."
+  site: https://www.pearson.fr/fr/book/?GCOI=27440100098400
+  mandatory: true
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - title: Weaving the Web
   slug: weaving-the-web
   author: Tim Berners-Lee
@@ -123,6 +145,7 @@
   importance: La sémiotique est indispensable à la compréhension de la communication, ce livre propose une entrée en matière ludique bien qu'un peu datée
   site: https://www.seuil.com/ouvrage/mythologies-roland-barthes/9782757841754
   isbn: 9782757841754
+  mandatory: false
   paths:
     - /competences/comprendre
     - /competences/exprimer
@@ -567,3 +590,59 @@
   paths:
     - /competences/comprendre
     - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: La phase de recherche en web design
+  slug: la-phase-de-recherche-en-web-design
+  cover: la-phase-de-recherche-en-web-design.jpeg
+  author: Erika Hall
+  summary: "Étape trop souvent négligée par les web designers, le travail de recherche préalable à la conception d'un site web est pourtant un élément clé de la réussite de ce dernier. Une recherche fructueuse nécessite de poser les bonnes questions et de porter un regard critique sur les réponses obtenues, en impliquant tous les acteurs du projet. Erika Hall, responsable de la recherche dans une agence web, vous livre ici toute son expérience en la matière, en vous apprenant à reconnaître vos avantages concurrentiels, à identifier vos partis pris et préjugés, pour ensuite comprendre et exploiter au mieux les résultats obtenus. En suivant ses conseils, vous gagnerez du temps et de l'argent, en réduisant le nombre d'inconnues et en posant des bases solides à votre travail de création."
+  site: https://www.eyrolles.com/Audiovisuel/Livre/la-phase-de-recherche-en-web-design-9782212141467/
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: Petit traité de manipulation à l’usage des honnêtes gens
+  slug: petit-traite-de-manipulation-a-l-usage-des-honnetes-gens
+  cover: petit-traite-de-manipulation-a-l-usage-des-honnetes-gens.jpeg
+  author: Robert-Vincent Joule et Jean-Léon Beauvois
+  summary: "« Comment amène-t-on autrui à faire ce qu’on voudrait le voir faire ? La solution se trouve dans cette introduction aux techniques de la manipulation. » Le Monde. « Et le plus fort, c’est que ça marche aussi en amour. Essayez, vous verrez… » L’Écho des savanes. « Cinquante ans de recherches scientifiques, basées sur l’administration de la preuve, permettent aujourd’hui à qui veut influencer autrui de mettre un maximum de chances de son côté et à qui en a assez de se faire “manipuler” de mieux comprendre les ressorts psychologiques au moyen desquels il se fait piéger. » Réponse à tout !. « Finalement, le titre est on ne peut plus exact. La manipulation est observée sous tous ses angles scientifiques, puis disséquée dans toutes ses utilisations pratiques… » Challenges. « Voici un petit ouvrage à ne pas mettre entre toutes les mains. Deux psychosociologues de talent y démontrent comment, dans la vie de tous les jours, nous sommes manipulés par les commerciaux ou la publicité. Idéal pour ne plus tomber dans le panneau… Mais aussi pour obtenir des autresce que vous souhaitez. » Entreprise et carrières. « Un livre étonnant, utile, indispensable… qu’il faudrait d’urgence inscrire au programme des écoles primaires, peut-être même avant le code de la route… » Annales des mines. Robert-Vincent Joule et Jean-Léon Beauvois figurent parmi les chercheurs francophones en psychologie sociale les plus connus. Le premier est professeur à l’université d’Aix-Marseille, le second à l’université de Nice Sophia Antipolis. Outre ce Petit traité, ils ont rédigé ensemble trois ouvrages : Soumission et idéologies et La soumission librement consentie (Presses universitaires de France), ainsi que A radical dissonance theory (Taylor & Francis)."
+  site: https://www.pug.fr/produit/1162/9782706118852/petit-traite-de-manipulation-a-l-usage-des-honnetes-gens
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: La psychologie des groupes
+  slug: la-psychologie-des-groupes
+  cover: la-psychologie-des-groupes.jpeg
+  author: Alain Blanchet et Alain Trognon
+  summary: "Cet ouvrage propose, après un bref rappel de l’histoire des théories, des pistes d’analyse pour comprendre le fonctionnement des groupes restreints. Il étudie le groupe en tant que fondement de la communication et de la construction sociale, dans ses rôles d’intégration et de différenciation, mais aussi dans les effets émotionnels et dans les formes relationnelles qu’il fait émerger en son sein. Il offre un point de vue synthétique sur les nombreuses études qui ont questionné la validité et l’efficacité des décisions prises en groupe. Cette introduction au domaine tant dans ses aspects théoriques que dans ses applications intéressera toute personne concernée par le fonctionnement et l’animation des groupes, que ce soit dans ses études ou ses activités professionnelles."
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: Don’t make me think
+  slug: dont-make-me-think
+  cover: dont-make-me-think.jpeg
+  author: Steve Krug
+  summary: "Since it was first published in 2000, hundreds of thousands of Web designers and developers have relied on usability guru Steve Krug's guide to understand the principles of intuitive navigation and information design. Witty, commonsensical, and eminently practical, it's one of the best loved and most recommended books on the subject. It's a core foundational book that every Web designer must internalize to make their designs truly effective. In this substantially revised edition, Steve returns with fresh perspective to reconsider the principles he originally laid out--commenting, amending, amplifying, and offering fresh new examples to underscore their importance. This edition adds an important new chapter on mobile as well as integrating coverage of mobile throughout. It's a complete re-imagining of the concepts that made this book an instant classic."
+  site: https://www.pearson.com/us/higher-education/program/Krug-Don-t-Make-Me-Think-Revisited-A-Common-Sense-Approach-to-Web-Usability-3rd-Edition/PGM9488.html
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+- title: The Design of everyday things
+  slug: the-design-of-everyday-things
+  cover: the-design-of-everyday-things.jpeg
+  author: Don Norman
+  summary: "Design doesn’t have to complicated, which is why this guide to human-centered design shows that usability is just as important as aesthetics. Even the smartest among us can feel inept as we fail to figure out which light switch or oven burner to turn on, or whether to push, pull, or slide a door. The fault, argues this ingenious — even liberating — book, lies not in ourselves, but in product design that ignores the needs of users and the principles of cognitive psychology. The problems range from ambiguous and hidden controls to arbitrary relationships between controls and functions, coupled with a lack of feedback or other assistance and unreasonable demands on memorization. The Design of Everyday Things shows that good, usable design is possible. The rules are simple: make things visible, exploit natural relationships that couple function and control, and make intelligent use of constraints. The goal: guide the user effortlessly to the right action on the right control at the right time. The Design of Everyday Things is a powerful primer on how — and why — some products satisfy customers while others only frustrate them."
+  site: https://www.basicbooks.com/titles/don-norman/the-design-of-everyday-things/9780465050659/
+  mandatory: false
+  paths:
+    - /competences/comprendre
+    - /competences/concevoir
+    - /competences/exprimer
+    - /competences/entreprendre
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
+    - /parcours/creation-numerique
