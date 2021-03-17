@@ -1,0 +1,17 @@
+<div class="row">
+  {% for book in include.bibliography %}
+    {% assign url = "/bibliographie/" | append: book.slug %}
+    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+    <div class="{{ site.data.grid.classes[mod] }} mt-5">
+      <a href="{{ url }}">
+        <img  src="/assets/images/bibliography/small/{{ book.cover | replace: 'jpeg', 'jpg' | replace: 'png', 'jpg' | replace: 'gif', 'jpg' }}"
+              alt="{{ book.title }}"
+              width="300"
+              class="img-fluid img-full img-thumbnail">
+      </a>
+      <h3 class="h4 mt-2"><a href="{{ url }}">{{ book.title }}</a></h3>
+      <p><b>{{ book.author }}</b></p>
+      <a href="{{ url }}">En savoir plus</a>
+    </div>
+  {% endfor %}
+</div>
