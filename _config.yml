@@ -1,9 +1,6 @@
 title: MMI Bordeaux
 url: https://www.mmibordeaux.com
 
-plugins:
-  - jekyll-datapage-generator
-
 defaults:
   -
     scope:
@@ -28,6 +25,12 @@ defaults:
       type: "workshops"
     values:
       layout: "workshop"
+  -
+    scope:
+      path: ""
+      type: "bibliography"
+    values:
+      layout: "bibliography"
 
 collections:
   competencies:
@@ -49,10 +52,6 @@ collections:
   workshops:
     output: true
     permalink: /ateliers/:name
-
-page_gen:
-  - data: bibliography
-    name: slug
-    title: title
-    template: bibliography
-    dir: bibliographie
+  bibliography:
+    output: true
+    permalink: /bibliographie/:name

@@ -9,7 +9,7 @@ permalink: /bibliographie
     <h2>Ressources indispensables</h2>
   </div>
 </div>
-{% assign bibliography = site.data.bibliography | where: 'mandatory', true %}
+{% assign bibliography = site.bibliography | where: 'mandatory', true %}
 {% include bibliography/list.html bibliography=bibliography %}
 
 <div class="row">
@@ -17,5 +17,5 @@ permalink: /bibliographie
     <h2>Ressources recommandées</h2>
   </div>
 </div>
-{% assign bibliography = site.data.bibliography | where: 'mandatory', false %}
+{% assign bibliography = site.bibliography | where: 'mandatory', false %}
 {% include bibliography/thumbs.html bibliography=bibliography %}

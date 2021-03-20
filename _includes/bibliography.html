@@ -1,5 +1,5 @@
 {% assign pattern = "book.paths contains '" | append: page.url | append: "'" %}
-{% assign bibliography = site.data.bibliography | where_exp: "book", pattern %}
+{% assign bibliography = site.bibliography | where_exp: "book", pattern %}
 {% if bibliography.size > 0 %}
   <section id="bibliographie" class="pt-5">
     <div class="row">
