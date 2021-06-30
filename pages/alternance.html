@@ -1,0 +1,27 @@
+---
+title: Alternance
+description: Test
+permalink: /alternance
+---
+
+<section>
+  <div class="row">
+    <div class="offset-1 col-10 col-xl-4">
+      <h2 class="mb-3">Bénéficiez d'une expérience professionnelle pendant votre Bachelor Universitaire de Technologie</h2>
+    </div>
+    <div class="offset-1 col-10 offset-xl-5 col-xl-6">
+      <p>
+        12 ou 18 mois en entreprise, rentrée possible en janvier et septembre.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    {% for alternance in site.alternances %}
+      <article class="{{ site.data.grid.classes[forloop.index0] }}">
+        <h3><a href="{{ alternance.url }}">{{ alternance.title }}</a></h3>
+        <p>{{ alternance.description }}</p>
+        <a href="{{ alternance.url }}" class="btn">En savoir plus</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="offset-1 col-10 col-xl-4">
+    <h2 class="mb-3">{{ page.description }}</h2>
+    <p>
+      <a href="/parcours/{{ page.slug }}">En savoir plus sur les compétences de l'étudiant</a>
+    </p>
+  </div>
+</div>
+
+
+<section>
+  <div class="row">
+    {% for session in site.data.alternance.sessions %}
+    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
+      <article class="{{ site.data.grid.classes[mod] }}">
+        <h3>{{ session.title }}</h3>
+        <p>{{ session.calendar }}</p>
+        <p>{{ session.cost }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
