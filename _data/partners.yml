@@ -24,3 +24,6 @@
   url: https://mica.u-bordeaux-montaigne.fr
 # - name: Pitch Climat
 # - name: Fresque du Numérique
+- name: Scalingo
+  logo: partner-scalingo.png
+  url: https://scalingo.com
