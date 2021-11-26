@@ -11,15 +11,4 @@ layout: default
   </div>
 </div>
 
-<section>
-  <div class="row">
-    {% for session in site.data.alternance.sessions %}
-    {% assign mod = forloop.index0 | modulo: site.data.grid.classes.size %}
-      <article class="{{ site.data.grid.classes[mod] }}">
-        <h3>{{ session.title }}</h3>
-        <p>{{ session.calendar }}</p>
-        <p>{{ session.cost }}</p>
-      </article>
-    {% endfor %}
-  </div>
-</section>
+{% include programme-alternance.html %}
