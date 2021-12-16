@@ -173,9 +173,9 @@
   linkedin: https://www.linkedin.com/in/victorlamant/
   gender: M
   paths:
+    - /competences/comprendre
     - /competences/concevoir
-    - /competences/exprimer
-    - /parcours/creation-numerique
+    - /parcours/strategie-de-communication-numerique-et-design-d-experience
 - name: Damien Petton
   promotion: 2007
   job: Co-fondateur & Développeur Front-End @ Switch
