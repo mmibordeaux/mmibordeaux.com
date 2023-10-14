@@ -3,9 +3,9 @@ layout: default
 ---
 <div class="row">
   <div class="offset-1 col-10 col-md-3 mt-5">
-    <img  src="/assets/images/bibliography/original/{{ page.cover }}"
+    <img  src="/assets/images/bibliography/large/{{ page.cover }}"
           alt="{{ page.title }}"
-          width="600"
+          width="500"
           class="img-fluid img-full img-thumbnail">
   </div>
   <div class="offset-1 col-10 offset-md-1 col-md-5 mt-5">
@@ -16,6 +16,12 @@ layout: default
     {% endif %}
     {% if page.site %}
       <a href="{{ page.site }}" target="_blank">Accéder à la ressource</a>
+    <br />
+    {% endif %} 
+    {% if page.free_resource %}
+    <a href="{{ page.free_resource }}" target="_blank">
+      Accéder à la ressource gratuite
+    </a>
     {% endif %}
     <hr class="mt-5 mb-5">
     {% if page.mandatory %}
