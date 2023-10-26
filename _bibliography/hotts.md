@@ -7,7 +7,7 @@ summary: A tribute to the creative people who invent narratives, characters, fic
   worlds, structures and... meaning.
 importance: Une web-série passionnante sur le récit
 mandatory: true
-site: https://www.youtube.com/playlist?list=PLxex8Z5MHt2e3LFD1zn3bwmkOWQuAfXqU
+free_resource: https://www.youtube.com/playlist?list=PLxex8Z5MHt2e3LFD1zn3bwmkOWQuAfXqU
 paths:
 - "/competences/exprimer"
 - "/parcours/creation-numerique"
