@@ -9,7 +9,7 @@ summary: L'usage des réseaux sociaux est aujourd'hui indispensable pour toutes 
   pour recruter, gérer, animer et fidéliser sa communauté.  Entièrement mise à jour,
   cette 2e édition met encore plus l'accent sur les réseaux sociaux les plus importants
   (Facebook, Instagram, Twitter, LinkedIn) pour faciliter leur utilisation.
-site: https://www.dunod.com/entreprise-economie/boite-outils-du-community-manager-0
+site: https://www.dunod.com/entreprise-et-economie/boite-outils-du-community-manager-0
 mandatory: false
 isbn: 9782100788217
 paths:

@@ -13,6 +13,8 @@ summary: Cet ouvrage propose, après un bref rappel de l’histoire des théorie
   théoriques que dans ses applications intéressera toute personne concernée par le
   fonctionnement et l’animation des groupes, que ce soit dans ses études ou ses activités
   professionnelles.
+site: https://www.fnac.com/a11223337/Alain-Blanchet-La-psychologie-des-groupes
+isbn: 2200620721
 mandatory: false
 paths:
 - "/competences/comprendre"

@@ -11,8 +11,8 @@ summary: 'La dimension cachée, c’est celle du territoire de tout être vivant
   que nous pouvons avoir d’autrui et sur le danger que nous courons, dans nos cités
   modernes, à ignorer cette dimension cachée&nbsp;: peut-être est-ce moins le surpeuplement
   qui nous menace que la perte de notre identité.'
-site: https://www.seuil.com/ouvrage/la-dimension-cachee-edward-t-hall/9782757841990
-isbn: 9782757841990
+site: https://www.fnac.com/a7684030/Edward-T-Hall-La-Dimension-cachee-reedition
+isbn: 2757841998
 mandatory: false
 paths:
 - "/competences/comprendre"

@@ -11,8 +11,8 @@ summary: En ce début du troisième millénaire, l'espèce humaine doit faire fa
   décisif pour l'aventure humaine que l'ont été l'âge du feu ou l'âge du fer. N'est-il
   pas urgent alors de repenser les fondements de notre humanisme pour maîtriser notre
   destin?
-site: http://www.edvlb.com/choc-numerique/herve-fischer/livre/9782896492145
-isbn: 9782896492145
+site: https://www.fnac.com/a3740411/Herve-Fischer-Le-choc-du-numerique
+isbn: 2890057925
 mandatory: false
 paths:
 - "/competences/comprendre"
