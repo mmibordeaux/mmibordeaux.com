@@ -15,7 +15,7 @@ summary: 'Face à l’urgence climatique et l’empreinte environnementale cons�
   des ressources complémentaires.'
 importance: En 30 minutes, l'essentiel pour comprendre les enjeux du Numérique Responsable
 mandatory: true
-site: https://institutnr.org/mooc-sensibilisation-numerique-responsable
+free_resource: https://institutnr.org/mooc-sensibilisation-numerique-responsable
 paths:
 - "/competences/concevoir"
 - "/competences/entreprendre"

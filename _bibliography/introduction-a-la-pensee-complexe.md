@@ -14,7 +14,7 @@ summary: 'Nous demandons à la pensée qu''elle dissipe les brouillards et les o
   complexité du monde qui nous entoure.'
 importance: Les outils intellectuels nécessaires pour aborder le monde contemporain,
   dans un ouvrage très court et accessible
-site: https://www.seuil.com/ouvrage/introduction-a-la-pensee-complexe-edgar-morin/9782757842003
+site: https://www.fnac.com/a7633817/Edgar-Morin-Introduction-a-la-pensee-complexe-reedition
 isbn: 9782757842003
 mandatory: true
 paths:

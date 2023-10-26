@@ -16,7 +16,7 @@ summary: 'Face à l’urgence climatique et l’empreinte environnementale cons�
 importance: 4h30 pour comprendre le Numérique Responsable, et préparer la Certification
   Numérique Responsable
 mandatory: false
-site: https://institutnr.org/mooc-numerique-responsable-complet
+free_resource: https://institutnr.org/mooc-numerique-responsable-complet
 paths:
 - "/competences/concevoir"
 - "/competences/entreprendre"

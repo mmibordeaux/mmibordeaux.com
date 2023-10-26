@@ -12,7 +12,7 @@ summary: 'Oliver Sacks décrit dans ce livre les affections les plus bizarres, c
   la tête de sa femme, et bien d’autres… Tentatives aussi pour poser les jalons d’une
   médecine nouvelle, plus complète, qui, traitant le corps, ne refuserait pas de s’occuper
   de l’esprit, et même de l’âme…'
-site: https://www.seuil.com/ouvrage/l-homme-qui-prenait-sa-femme-pour-un-chapeau-oliver-sacks/9782757840214
+site: https://www.seuil.com/ouvrage/l-homme-qui-prenait-sa-femme-pour-un-chapeau-et-autres-recits-cliniques-oliver-sacks/9782020101011
 isbn: 9782757840214
 mandatory: false
 paths:
