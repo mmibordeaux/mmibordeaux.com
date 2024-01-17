@@ -13,7 +13,7 @@ summary: 'Dans cet ouvrage, pendant de son célèbre Faites vous-même votre mal
   des ultrasolutions dans sa vie et celle de ses proches, en lisant le journal ou
   en écoutant les informations&nbsp;: leur mécanisme est ici minutieusement démonté,
   mis à la portée de tous.'
-site: https://www.seuil.com/ouvrage/comment-reussir-a-echouer-paul-watzlawick/9782757841815
+site: https://www.seuil.com/ouvrage/comment-reussir-a-echouer-trouver-l-ultrasolution-paul-watzlawick/9782020129428
 isbn: 9782757841815
 mandatory: false
 paths:

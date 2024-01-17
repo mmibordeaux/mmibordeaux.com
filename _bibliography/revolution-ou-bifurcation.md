@@ -6,7 +6,7 @@ cover: revolution-ou-bifurcation.png
 summary: 'Le Ground Control reçoit Bernard Stiegler et Alain Damasio&nbsp;: Révolution
   ou bifurcation. Un événement organisé avec la librairie Charybde.'
 mandatory: false
-site: https://www.youtube.com/watch?v=Jth1eFyjt-M
+free_resource: https://www.youtube.com/watch?v=Jth1eFyjt-M
 paths:
 - "/competences/comprendre"
 - "/competences/concevoir"

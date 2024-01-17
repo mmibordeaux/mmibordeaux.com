@@ -11,7 +11,7 @@ summary: Hervé Fischer soutient que l'histoire et la créativité de l'humanit�
   culturels et sociaux que traverse le monde contemporain. De Darwin à McLuhan, de
   Big Brother à Google, Fischer porte un regard libre et stimulant sur une étape de
   notre évolution qui pourrait bien s'avérer décisive.
-site: http://www.edvlb.com/divergence-futur/herve-fischer/livre/9782896494514
+site: https://editionshomme.groupelivre.com/products/la-divergence-du-futur?variant=42638177435905
 isbn: 9782896494514
 mandatory: false
 paths:

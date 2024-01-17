@@ -7,7 +7,7 @@ summary: 240 règles pour améliorer vos sites et mieux prendre en compte vos ut
 importance: Un ensemble de règles universelles, utiles et documentées dont la maîtrise
   est validée pendant l'atelier <a href="/ateliers/certification-opquast">Certification
   Opquast</a>
-site: https://checklists.opquast.com/fr/assurance-qualite-web/
+free_resource: https://checklists.opquast.com/fr/assurance-qualite-web/
 mandatory: true
 paths:
 - "/competences/concevoir"

@@ -24,8 +24,8 @@ summary: 'Marks of Excellence (first published in 1997) offers a rigorous explor
   expanded edition will include at least 500 new images and 80 pages of new material,
   bringing this successful title right up to date.'
 mandatory: false
-site: https://fr.phaidon.com/store/design/marks-of-excellence-9780714864747
-isbn: 9780714864747
+site: https://www.fnac.com/a897063/MOLLERUP-P-Marks-of-excellence
+isbn: 0714838381
 paths:
 - "/competences/comprendre"
 - "/competences/concevoir"
